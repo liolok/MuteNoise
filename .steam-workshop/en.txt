@@ -1,0 +1,85 @@
+[b]All options need to be turned on manually to take effect.[/b]
+
+[h2]Compatibility[/h2]
+[h3]Most Annoying[/h3]
+[list]
+[*]Flies
+[*]Friendly Fruit Fly
+[*]Glommer
+[*]Pets Hunger Cry
+[*]Sawhorse
+[/list]
+[h3]Ambience[/h3]
+[list]
+[*]Bird Trap
+[*]Celestial Orb
+[*]Craft Menu
+[*]Dwarf Star & Polar Light
+[*]Fire Consuming Shadow Hand
+[*]Insane & Enlightened
+[*]Overheating & Freezing
+[*]Season Wave Sound
+[*]Shell Beach Turf
+[*]Thunder
+[*]Worm Hole
+[/list]
+[h3]Character[/h3]
+[list]
+[*]Abigail
+[*]Battle Saddle Music
+[*]Chorusbox Circuit
+[*]Lucy the Axe
+[*]Mourning Glory
+[*]Pipspook
+[*]Portable Grinding Mill
+[*]Walter
+[/list]
+[h3]Creature[/h3]
+[list]
+[*]Bee
+[*]Birds
+[*]Bulbous Lightbug
+[*]Buzzard
+[*]Catcoon
+[*]Chester
+[*]Dust Moth
+[*]Frog
+[*]Gobbler
+[*]Grass Gekko
+[*]Mandrake
+[*]Moleworm
+[*]Mosquito
+[*]Rabbit
+[/list]
+[h3]Equipment[/h3]
+[list]
+[*]Bone Armor
+[*]Krampus Sack
+[*]Morning Star
+[*]Night Armor
+[*]Thulecite Suit & W.A.R.B.I.S. Armor
+[/list]
+[h3]Structure[/h3]
+[list]
+[*]Alchemy Engine
+[*]Bee Box
+[*]Florid Postern & Celestial Portal
+[*]Ice Crystaleyezer
+[*]Ice Flingomatic
+[*]Scaled Furnace
+[*]Shadow Manipulator
+[*]Tackle Receptacle
+[*]Telelocator Focus
+[*]Think Tank
+[/list]
+
+[h2]Credits[/h2]
+[list]
+[*]Idea: [url=https://forums.kleientertainment.com/forums/topic/153929-solved-is-there-a-way-to-mute-sounds-without-fmod-errors-being-spammed-in-client-logs/]This post[/url]
+[*]Code: All similar mod authors
+[*]Icon: LuTxs & iaman2b
+[/list]
+
+[hr][/hr]
+
+[url=https://github.com/liolok/MuteNoise]Source Code[/url]
