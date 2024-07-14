@@ -1,359 +1,274 @@
----RemapSoundEvent("hookline_2/common/Shells_v5_FX_dst-001", "")
---宠物饥饿禁声
-if GetModConfigData("pet") == 1 then
-
-    RemapSoundEvent("dontstarve_DLC001/creatures/together/kittington/disstress", "")--猫
-    RemapSoundEvent("dontstarve/creatures/together/pupington/bark", "")--狗
-    RemapSoundEvent("dontstarve/creatures/together/sheepington/angry", "")--羊
-    RemapSoundEvent("dontstarve_DLC001/creatures/together/dragonling/angry", "")--龙蝇
-    RemapSoundEvent("dontstarve_DLC001/creatures/together/glomling/vomit_voice", "")--小格罗姆
-    RemapSoundEvent("dontstarve/creatures/together/perdling/distress", "")--小鸡
-    RemapSoundEvent("dontstarve/creatures/together/perdling/distress_long", "")
-    RemapSoundEvent("turnoftides/creatures/together/lunarmothling/distress", "")--月蛾
-    RemapSoundEvent("dontstarve_DLC001/creatures/together/puft/vomit_voice", "")
+Assets = {
+  Asset('SOUNDPACKAGE', 'sound/silence.fev'),
+  Asset('SOUND', 'sound/silence.fsb'),
+}
+local function Mute(event)
+  RemapSoundEvent(event, 'silence/second/one') -- replace with 1s of silence
+end
+local function Noise(name, old) -- keep backward compatibility
+  return GetModConfigData(name) or (GetModConfigData(old) == 1)
 end
 
+-- Most Annoying ---------------------------------------------------------------
 
---低san禁声
-if GetModConfigData("Insanity Sounds") == 1 then
-    RemapSoundEvent("dontstarve/sanity/gonecrazy_stinger", "")
-    RemapSoundEvent("dontstarve/sanity/sanity", "")
+if Noise('Flies', 'poop') then
+  Mute('dontstarve/common/flies')
+end
+if Noise('Friendly Fruit Fly') then
+  Mute('farming/creatures/fruitfly/LP')
+  Mute('farming/creatures/fruitfly/sleep')
+end
+if Noise('Glommer', 'SilentGlommer') then
+  Mute('dontstarve_DLC001/creatures/glommer/flap')
+  Mute('dontstarve_DLC001/creatures/glommer/idle_voice')
+  Mute('dontstarve_DLC001/creatures/glommer/vomit_voice')
+  Mute('dontstarve_DLC001/creatures/glommer/vomit_liquid')
+  Mute('dontstarve_DLC001/creatures/glommer/bounce_voice')
+  Mute('dontstarve_DLC001/creatures/glommer/bounce_ground')
+  Mute('dontstarve_DLC001/creatures/glommer/sleep_voice')
+end
+if Noise('Pets Hunger Cry', 'pet') then
+  Mute('dontstarve_DLC001/creatures/together/kittington/disstress') -- critter_kitten / Kittykit / 浣猫崽
+  Mute('dontstarve/creatures/together/pupington/bark') -- critter_puppy / Vargling / 小座狼
+  Mute('dontstarve/creatures/together/sheepington/angry') -- critter_lamb / Ewelet / 小钢羊
+  Mute('dontstarve_DLC001/creatures/together/dragonling/angry') -- critter_dragonling / Broodling / 小龙蝇
+  Mute('dontstarve_DLC001/creatures/together/glomling/vomit_voice') -- critter_glomling / Glomglom / 小格罗姆
+  Mute('dontstarve_DLC001/creatures/together/puft/vomit_voice') -- critter_glomling skin: Puft / 喷浮飞鱼
+  Mute('dontstarve/creatures/together/perdling/distress') -- critter_perdling / Giblet / 小火鸡
+  Mute('dontstarve/creatures/together/perdling/distress_long')
+  Mute('dontstarve/creatures/together/rooster/distress') -- critter_perdling skin: Rooslet / 公鸡
+  Mute('dontstarve/creatures/together/rooster/distress_long')
+  Mute('turnoftides/creatures/together/lunarmothling/distress') -- critter_lunarmothling / Mothling / 小蛾子
+  Mute('terraria1/mini_eyeofterror/distress') -- critter_eyeofterror / Friendly Peeper / 友好窥视者
+  Mute('dontstarve/characters/walter/woby/small/bark') -- wobysmall / Woby / 沃比
+end
+if Noise('Sawhorse') then
+  Mute('rifts3/sawhorse/proximity_lp')
+  Mute('rifts3/sawhorse/proximity_lp_pst')
 end
 
+-- Ambience --------------------------------------------------------------------
 
---恶魔门禁声
-if GetModConfigData("spawnportal") == 1 then
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/spawnportal_idle_LP", "")
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/spawnportal_idle", "")--火烟
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/spawnportal_scratch", "")
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/spawnportal_jacob", "")
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/spawnportal_blink", "")--眨眼睛
-    RemapSoundEvent("dontstarve/common/together/spawn_vines/vines", "")--葡萄藤
+if Noise('Bird Trap', 'birdtrap') then
+  Mute('dontstarve/common/birdtrap_rustle')
+end
+if Noise('Celestial Orb') then
+  Mute('dontstarve/common/together/celestial_orb/idle_LP')
+end
+if Noise('Craft Menu') then
+  Mute('dontstarve/HUD/research_available')
+  Mute('dontstarve/HUD/recipe_ready')
+end
+if Noise('Dwarf Star & Polar Light', 'staff') then
+  Mute('dontstarve/common/staff_star_LP')
+  Mute('dontstarve/common/staff_coldlight_LP')
+end
+if Noise('Fire Consuming Shadow Hand', 'shadowhand') then
+  Mute('dontstarve/sanity/shadowhand_snuff')
+  Mute('dontstarve/sanity/shadowhand_creep')
+  Mute('dontstarve/sanity/shadowhand_retreat')
+end
+if Noise('Insane & Enlightened', 'Insanity Sounds') then
+  Mute('dontstarve/sanity/sanity')
+  Mute('dontstarve/sanity/gonecrazy_stinger')
+  Mute('turnoftides/sanity/lunacy_LP')
+  Mute('dontstarve/sanity/lunacy_stinger')
+end
+if Noise('Overheating & Freezing', 'overheat') then
+  Mute('dontstarve_DLC001/common/HUD_hot_level1')
+  Mute('dontstarve_DLC001/common/HUD_hot_level2')
+  Mute('dontstarve_DLC001/common/HUD_hot_level3')
+  Mute('dontstarve_DLC001/common/HUD_hot_level4')
+  Mute('dontstarve/winter/freeze_1st')
+  Mute('dontstarve/winter/freeze_2nd')
+  Mute('dontstarve/winter/freeze_3rd')
+  Mute('dontstarve/winter/freeze_4th')
+end
+if Noise('Season Wave Sound') then
+  Mute('dontstarve/AMB/waves') -- autumn and spring
+  Mute('dontstarve/AMB/waves_winter')
+  Mute('dontstarve_DLC001/AMB/waves_summer')
+end
+if Noise('Shell Beach Turf') then
+  Mute('hookline_2/amb/hermit_island')
+end
+if Noise('Thunder', 'thunder') then
+  Mute('dontstarve/rain/thunder_close')
+  Mute('dontstarve/rain/thunder_far')
+end
+if Noise('Worm Hole') then
+  Mute('dontstarve/common/teleportworm/idle')
 end
 
+-- Characters ------------------------------------------------------------------
 
---格罗姆禁声
-if GetModConfigData("SilentGlommer") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/creatures/glommer/sleep_voice", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/glommer/idle_voice", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/glommer/flap","")
-    RemapSoundEvent("dontstarve_DLC001/creatures/glommer/bounce_voice","")
-    RemapSoundEvent("dontstarve_DLC001/creatures/glommer/bounce_ground","")
+if Noise('Abigail') then
+  Mute('dontstarve/characters/wendy/abigail/howl')
+end
+if Noise('Battle Saddle Music') then
+  Mute('dontstarve/music/music_wigfrid_valkyrie')
+end
+if Noise('Chorusbox Circuit') then
+  Mute('WX_rework/module/musicmodule_lp')
+end
+if Noise('Lucy the Axe', 'lucy') then
+  Mute('dontstarve/characters/woodie/lucytalk_LP')
+end
+if Noise('Mourning Glory') then
+  Mute('dontstarve/characters/wendy/small_ghost/wisp')
+end
+if Noise('Pipspook') then
+  Mute('dontstarve/characters/wendy/small_ghost/howl')
+  Mute('dontstarve/characters/wendy/small_ghost/joy')
+end
+if Noise('Portable Grinding Mill') then
+  Mute('dontstarve/common/together/portable/blender/proximity_LP')
+end
+if Noise('Walter') then
+  Mute('dontstarve/characters/walter/talk_LP')
 end
 
+-- Creatures -------------------------------------------------------------------
 
---曼德拉草禁声
-if GetModConfigData("SilentMandrake") == 1 then
-    RemapSoundEvent("dontstarve/creatures/mandrake/walk", "")
+if Noise('Bee', 'bee') then
+  Mute('dontstarve/bee/bee_takeoff')
+  Mute('dontstarve/bee/bee_fly_LP')
+  Mute('dontstarve/bee/killerbee_takeoff')
+  Mute('dontstarve/bee/killerbee_fly_LP')
+end
+if Noise('Birds', 'bird') then
+  Mute('dontstarve/birds/flyin')
+  Mute('dontstarve/birds/chirp_crow') -- Crow & Polly Roger / 乌鸦、波莉·罗杰
+  Mute('dontstarve/birds/takeoff_crow')
+  Mute('dontstarve/birds/chirp_robin') -- Red Bird / 红雀
+  Mute('dontstarve/birds/takeoff_robin')
+  Mute('dontstarve/birds/chirp_junco') -- Snowbird / 雪雀
+  Mute('dontstarve/birds/takeoff_junco')
+  Mute('dontstarve/birds/chirp_canary') -- Canary / 金丝雀
+  Mute('dontstarve/birds/takeoff_canary')
+  Mute('turnoftides/birds/chirp_puffin') -- Puffin / 海鹦鹉
+  Mute('turnoftides/birds/takeoff_puffin')
+  Mute('moonstorm/creatures/mutated_robin/chirp') -- Misshapen Bird / 奇形鸟
+  Mute('moonstorm/creatures/mutated_robin/take_off')
+  Mute('moonstorm/creatures/mutated_crow/chirp') -- Moonblind Crow / 月盲乌鸦
+  Mute('moonstorm/creatures/mutated_crow/take_off')
+end
+if Noise('Bulbous Lightbug') then
+  Mute('grotto/creatures/light_bug/fly_LP')
+end
+if Noise('Buzzard', 'buzzard') then
+  Mute('dontstarve_DLC001/creatures/buzzard/hurt')
+end
+if Noise('Catcoon', 'catcoon') then
+  Mute('dontstarve_DLC001/creatures/catcoon/swipe_tail')
+  Mute('dontstarve_DLC001/creatures/catcoon/hiss_pre')
+  Mute('dontstarve_DLC001/creatures/catcoon/hiss')
+  Mute('dontstarve_DLC001/creatures/catcoon/pickup')
+  Mute('dontstarve_DLC001/creatures/catcoon/hairball_hack')
+  Mute('dontstarve_DLC001/creatures/catcoon/hairball_vomit')
+  Mute('dontstarve_DLC001/creatures/catcoon/pounce_pre')
+  Mute('dontstarve_DLC001/creatures/catcoon/pounce')
+  Mute('dontstarve_DLC001/creatures/catcoon/jump')
+  Mute('dontstarve_DLC001/creatures/catcoon/yawn')
+  Mute('dontstarve_DLC001/creatures/catcoon/sleep')
+end
+if Noise('Chester', 'chester') then
+  Mute('dontstarve/creatures/chester/pant')
+  Mute('dontstarve/creatures/chester/boing')
+end
+if Noise('Dust Moth') then
+  Mute('grotto/creatures/dust_moth/mumble')
+end
+if Noise('Frog', 'frog') then
+  Mute('dontstarve/frog/grunt')
+  Mute('dontstarve/frog/walk')
+  Mute('rifts3/mutated_frog/grunt') -- Bright-Eyed Frog / 明眼青蛙
+  Mute('rifts3/mutated_frog/walk')
+end
+if Noise('Gobbler', 'perd') then
+  Mute('dontstarve/creatures/perd/gobble')
+  Mute('dontstarve/creatures/perd/sleep')
+end
+if Noise('Grass Gekko', 'grassgekko') then
+  Mute('dontstarve/creatures/together/grass_gekko/tail_off')
+  Mute('dontstarve/creatures/together/grass_gekko/tail_regrow')
+  Mute('dontstarve/creatures/together/grass_gekko/sleep_pre')
+  Mute('dontstarve/creatures/together/grass_gekko/sleep')
+end
+if Noise('Mandrake', 'SilentMandrake') then
+  Mute('dontstarve/creatures/mandrake/walk')
+end
+if Noise('Moleworm', 'mole') then
+  Mute('dontstarve_DLC001/creatures/mole/sleep')
+  Mute('dontstarve_DLC001/creatures/mole/emerge')
+  Mute('dontstarve_DLC001/creatures/mole/emerge_voice')
+  Mute('dontstarve_DLC001/creatures/mole/sniff')
+  Mute('dontstarve_DLC001/creatures/mole/pickup')
+  Mute('dontstarve_DLC001/creatures/mole/jump')
+  Mute('dontstarve_DLC001/creatures/mole/retract')
+  Mute('dontstarve_DLC001/creatures/mole/move')
+end
+if Noise('Mosquito', 'mosquito') then
+  Mute('dontstarve/creatures/mosquito/mosquito_fly_LP')
+end
+if Noise('Rabbit', 'rabbit') then
+  Mute('dontstarve/rabbit/hop')
+  Mute('dontstarve/rabbit/scream')
+  Mute('dontstarve/rabbit/beardscream')
+  Mute('dontstarve/rabbit/winterscream')
 end
 
+-- Equipment -------------------------------------------------------------------
 
---灭火器禁声
-if GetModConfigData("SilentFiresuppressor") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/common/firesupressor_chuff", "")
-    RemapSoundEvent("dontstarve_DLC001/common/firesupressor_idle_LP", "")
-    RemapSoundEvent("dontstarve_DLC001/common/firesupressor_idle", "")
-    RemapSoundEvent("dontstarve_DLC001/common/firesupressor_shoot", "")
-    RemapSoundEvent("dontstarve_DLC001/common/firesupressor_spin", "")
---RemapSoundEvent("dontstarve_DLC001/common/firesupressor_impact", "")--溅射
+if Noise('Bone Armor') then
+  Mute('dontstarve/movement/foley/bone')
+end
+if Noise('Krampus Sack') then
+  Mute('dontstarve/movement/foley/krampuspack')
+end
+if Noise('Morning Star') then
+  Mute('dontstarve_DLC001/common/morningstar')
+end
+if Noise('Night Armor') then
+  Mute('dontstarve/movement/foley/nightarmour')
+end
+if Noise('Thulecite Suit & W.A.R.B.I.S. Armor') then
+  Mute('dontstarve/movement/foley/metalarmour')
 end
 
+-- Structure -------------------------------------------------------------------
 
---大便苍蝇禁声
-if GetModConfigData("poop") == 1 then
-    RemapSoundEvent("dontstarve/common/flies", "")
+if Noise('Alchemy Engine') then
+  Mute('dontstarve/common/researchmachine_lvl2_idle_LP')
 end
-
-
---机器人系统过载禁声
-if GetModConfigData("wx78") == 1 then
-    RemapSoundEvent("dontstarve/characters/wx78/charged", "")
+if Noise('Bee Box') then
+  Mute('dontstarve/bee/bee_box_LP')
 end
-
-
---蜜蜂禁声
-if GetModConfigData("bee") == 1 then
-    RemapSoundEvent("dontstarve/bee/bee_takeoff", "")
-    RemapSoundEvent("dontstarve/bee/bee_fly_LP", "")
-	RemapSoundEvent("dontstarve/bee/bee_box_LP", "")
-	--RemapSoundEvent("dontstarve/common/bee_box_craft", "")
+if Noise('Florid Postern / Celestial Portal', 'spawnportal') then
+  Mute('dontstarve/common/together/spawn_vines/spawnportal_idle_LP')
+  Mute('dontstarve/common/together/spawn_vines/spawnportal_jacob')
+  Mute('dontstarve/common/together/spawn_vines/spawnportal_blink')
+  Mute('dontstarve/common/together/spawn_vines/vines')
 end
-
-
---捕鸟器禁声
-if GetModConfigData("birdtrap") == 1 then
-    RemapSoundEvent("dontstarve/common/birdtrap_rustle", "")
+if Noise('Ice Crystaleyezer') then
+  Mute('rifts3/oculus_ice_radius/ambient_lp')
 end
-
-
---鸟禁声
-if GetModConfigData("bird") == 1 then
-    RemapSoundEvent("dontstarve/creatures/smallbird/wings", "")
-    RemapSoundEvent("dontstarve/creatures/smallbird/chirp", "")
-    RemapSoundEvent("dontstarve/creatures/smallbird/blink", "")
-    RemapSoundEvent("dontstarve/creatures/smallbird/chirp_short", "")
---RemapSoundEvent("dontstarve/creatures/smallbird/attack", "")
-    RemapSoundEvent("dontstarve/creatures/smallbird/hurt", "")
-    RemapSoundEvent("dontstarve/birds/flyin", "")
-    RemapSoundEvent("dontstarve/birds/chirp_crow", "")
-    RemapSoundEvent("dontstarve/birds/takeoff_crow", "")
-    RemapSoundEvent("dontstarve/birds/chirp_robin", "")
-    RemapSoundEvent("dontstarve/birds/takeoff_robin", "")
-    RemapSoundEvent("dontstarve/birds/chirp_junco", "")
-    RemapSoundEvent("dontstarve/birds/takeoff_junco", "")
-    RemapSoundEvent("dontstarve/birds/chirp_canary", "")
-    RemapSoundEvent("dontstarve/birds/takeoff_canary", "")
+if Noise('Ice Flingomatic', 'SilentFiresuppressor') then
+  Mute('dontstarve_DLC001/common/firesupressor_idle')
+  Mute('dontstarve_DLC001/common/firesupressor_chuff')
 end
-
-
---露西斧禁声
-if GetModConfigData("lucy") == 1 then
-    RemapSoundEvent("dontstarve/characters/woodie/lucytalk_LP", "")
+if Noise('Scaled Furnace', 'dragonflyfurnace') then
+  Mute('dontstarve/common/together/dragonfly_furnace/fire_LP')
 end
-
-
---青蛙禁声
-if GetModConfigData("frog") == 1 then
-    RemapSoundEvent("dontstarve/frog/walk", "")
-    RemapSoundEvent("dontstarve/frog/attack_spit", "")
-    RemapSoundEvent("dontstarve/frog/grunt", "")
-    RemapSoundEvent("dontstarve/frog/attack_voice", "")
-    RemapSoundEvent("dontstarve/frog/wake", "")
+if Noise('Shadow Manipulator') then
+  Mute('dontstarve/common/researchmachine_lvl3_idle_LP')
 end
-
-
---桦树精禁声
-if GetModConfigData("deciduous") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/rustle", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/angry", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/whip_move", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/whip_pop", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/whip", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_pop_small", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_pop_large", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_run_voice", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_run_rustle", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_run_jump", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_intoground", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_attack", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/drake_die", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/hurt_chop", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/death", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/transform_voicew", "")
-    RemapSoundEvent("dontstarve_DLC001/creatures/deciduous/transform_in", "")
+if Noise('Tackle Receptacle') then
+  Mute('hookline/common/tackle_station/proximity_LP')
 end
-
-
---过冷过热禁声
-if GetModConfigData("overheat") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/common/HUD_hot_level1", "")
-    RemapSoundEvent("dontstarve_DLC001/common/HUD_hot_level2", "")
-    RemapSoundEvent("dontstarve_DLC001/common/HUD_hot_level3", "")
-    RemapSoundEvent("dontstarve_DLC001/common/HUD_hot_level4", "")
-	
-	RemapSoundEvent("dontstarve/winter/freeze_2nd", "")
-    RemapSoundEvent("dontstarve/winter/freeze_3rd", "")
-    RemapSoundEvent("dontstarve/winter/freeze_4th", "")
-    RemapSoundEvent("dontstarve/winter/freeze_1st", "")
+if Noise('Telelocator Focus') then
+  Mute('dontstarve/common/telebase_hum')
 end
-
-
---猎狗袭击前的声音
-if GetModConfigData("houndwarning") == 1 then
-    RemapSoundEvent("dontstarve/creatures/hound/distant", "")
-end
-
---禁止夏天的某种音效
-if GetModConfigData("summer-ABM") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/summer/summerforestAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summerwaves", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summerrockyAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summerbadlandAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summergrasslandAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summermeadowAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summermarshAMB", "")
-	--RemapSoundEvent("dontstarve_DLC001/summer/summerchessAMB", "")
-end
-
-
---蜘蛛喊叫的声音
-if GetModConfigData("spider") == 1 then
-    --RemapSoundEvent("dontstarve/creatures/spider/spider_egg_sack", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/spiderLair_grow", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/spidernest_LP", "")
-	RemapSoundEvent("dontstarve/creatures/spider/scream", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/walk_spider", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/fallAsleep", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/sleeping", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/Attack", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/attack_grunt", "")
-	--RemapSoundEvent("dontstarve/creatures/spider/die", "")
-	
-	RemapSoundEvent("dontstarve/creatures/spiderwarrior/scream", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/walk_spider", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/fallAsleep", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/sleeping", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/Attack", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/attack_grunt", "")
-	--RemapSoundEvent("dontstarve/creatures/spiderwarrior/die", "")
-end
-
---鬼魂（包括阿比盖尔）禁声
-if GetModConfigData("ghosts") == 1 then
-    RemapSoundEvent("dontstarve/ghost/ghost_girl_howl_LP", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_girl_howl", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_girl_attack_LP", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_girl_attack", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_girl_redux", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_howl", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_attack_LP", "")
-	RemapSoundEvent("dontstarve/ghost/ghost_haunt", "")
-end
-
-
---蚊子禁声
-if GetModConfigData("mosquito") == 1 then
-    RemapSoundEvent("dontstarve/creatures/mosquito/mosquito_fly_LP", "")
-	RemapSoundEvent("dontstarve/creatures/mosquito/mosquito_hurt", "")
-	--RemapSoundEvent("dontstarve/creatures/mosquito/mosquito_attack", "")
-end
-
-
---矮星极光禁声
-if GetModConfigData("staff") == 1 then
-    --RemapSoundEvent("dontstarve/common/staff_star_create", "")
-	RemapSoundEvent("dontstarve/common/staff_star_LP", "")
-	RemapSoundEvent("dontstarve/common/staff_coldlight_LP", "")
-end
-
---切斯特走路禁声
-if GetModConfigData("chester") == 1 then
-    --RemapSoundEvent("dontstarve/creatures/chester/pant", "")
-	RemapSoundEvent("dontstarve/creatures/chester/boing", "")
-	--RemapSoundEvent("dontstarve/creatures/chester/open", "")
-	--RemapSoundEvent("dontstarve/creatures/chester/close", "")
-	--RemapSoundEvent("dontstarve/creatures/chester/hurt", "")
-	--RemapSoundEvent("dontstarve/creatures/chester/raise", "")
-end
-
-
---食人花禁声
-if GetModConfigData("lureplants") == 1 then
-    RemapSoundEvent("dontstarve/creatures/eyeplant/eye_retract", "")
-	RemapSoundEvent("dontstarve/creatures/eyeplant/eye_bite", "")
-	RemapSoundEvent("dontstarve/creatures/eyeplant/eye_emerge", "")
-	RemapSoundEvent("dontstarve/creatures/eyeplant/eye_bite", "")
-	RemapSoundEvent("dontstarve/creatures/eyeplant/vine_emerge", "")
-end
-
-
---打雷禁声
-if GetModConfigData("thunder") == 1 then
-    RemapSoundEvent("dontstarve/rain/thunder_close", "")
-	RemapSoundEvent("dontstarve/rain/thunder_far", "")
-end
-
---火鸡禁声
-if GetModConfigData("perd") == 1 then
-    RemapSoundEvent("dontstarve/creatures/perd/gobble", "")
-	RemapSoundEvent("dontstarve/creatures/perd/scream", "")
-	RemapSoundEvent("dontstarve/creatures/perd/run", "")
-	RemapSoundEvent("dontstarve/creatures/perd/sleep", "")
-	RemapSoundEvent("dontstarve/creatures/perd/gobble", "")
-end
-
---秃鹫禁声
-if GetModConfigData("buzzard") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/death", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/taunt", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/squack", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/flap", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/attack", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/flyout", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/buzzard/hurt", "")
-end
-
-
---抓火黑手禁声
-if GetModConfigData("shadowhand") == 1 then
-    RemapSoundEvent("dontstarve/sanity/shadowhand_snuff", "")
-	RemapSoundEvent("dontstarve/sanity/shadowhand_creep", "")
-	RemapSoundEvent("dontstarve/sanity/shadowhand_retreat", "")
-end
-
-
---火炉禁声
-if GetModConfigData("dragonflyfurnace") == 1 then
-    RemapSoundEvent("dontstarve/common/together/dragonfly_furnace/fire_LP", "")
-	RemapSoundEvent("dontstarve/common/together/dragonfly_furnace/light", "")
-	--RemapSoundEvent("dontstarve/common/together/dragonfly_furnace/place", "")
-end
-
---兔子禁声
-if GetModConfigData("rabbit") == 1 then
-    RemapSoundEvent("dontstarve/rabbit/hop", "")
-	RemapSoundEvent("dontstarve/rabbit/scream", "")
-	RemapSoundEvent("dontstarve/rabbit/beardscream", "")
-	RemapSoundEvent("dontstarve/rabbit/scream_short", "")
-	RemapSoundEvent("dontstarve/rabbit/winterscream", "")
-	RemapSoundEvent("dontstarve/rabbit/winterscream_short", "")
-	RemapSoundEvent("dontstarve/rabbit/beardscream", "")
-	RemapSoundEvent("dontstarve/rabbit/beardscream", "")
-	RemapSoundEvent("dontstarve/rabbit/beardscream", "")
-	RemapSoundEvent("dontstarve/rabbit/beardscream", "")
-end
-
-
---鼹鼠禁声
-if GetModConfigData("mole") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/creatures/mole/death", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/sleep", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/emerge", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/emerge_voice", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/sniff", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/jump", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/mole/retract", "")
-end
-
-
---浣熊猫禁声
-if GetModConfigData("catcoon") == 1 then
-    RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/pickup", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/hiss_pre", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/hurt", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/swipe_tail", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/hairball_hack", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/hairball_vomit", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/pickup", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/pounce_pre", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/pounce", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/hiss", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/attack", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/swipe", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/swipe_pre", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/swipe_whoosh", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/death", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/yawn", "")
-	RemapSoundEvent("dontstarve_DLC001/creatures/catcoon/sleep", "")
-end
-
---靠近科技禁声
-if GetModConfigData("researchmachine") == 1 then
-    RemapSoundEvent("dontstarve/common/researchmachine_lvl3_idle", "")
-	RemapSoundEvent("dontstarve/common/researchmachine_lvl3_idle_LP", "")
-	RemapSoundEvent("dontstarve/common/researchmachine_lvl2_idle_LP", "")
-	RemapSoundEvent("dontstarve/HUD/research_available", "")
-end
-
---草蜥蜴禁声
-if GetModConfigData("grassgekko") == 1 then
-    RemapSoundEvent("dontstarve/creatures/together/grass_gekko/hit", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/tail_off", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/tail_regrow", "")
-	RemapSoundEvent("dontstarve/wilson/pickup_reeds", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/emerge", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/death", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/body_fall", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/sleep_pre", "")
-	RemapSoundEvent("dontstarve/creatures/together/grass_gekko/sleep", "")
+if Noise('Think Tank') then
+  Mute('turnoftides/common/together/seafaring_prototyper/LP')
 end
