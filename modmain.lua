@@ -127,6 +127,12 @@ end
 if Noise('Walter') then
   Mute('dontstarve/characters/walter/talk_LP')
 end
+if Noise("Winona's Generator & G.E.M.erator") then
+  Mute('dontstarve/common/together/battery/on_LP')
+  Mute('meta4/winona_battery/nightmarefuel_powered')
+  Mute('meta4/winona_battery/purebrillance_powered')
+  Mute('meta4/winona_battery/purebrillance_overloaded_lp')
+end
 
 -- Creatures -------------------------------------------------------------------
 
