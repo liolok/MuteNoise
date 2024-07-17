@@ -78,7 +78,7 @@
 [list]
 [*]Idea: [url=https://forums.kleientertainment.com/forums/topic/153929-solved-is-there-a-way-to-mute-sounds-without-fmod-errors-being-spammed-in-client-logs/]This post[/url]
 [*]Code: All similar mod authors
-[*]Icon: LuTxs & iaman2b
+[*]Icon: LuXts & iaman2b
 [/list]
 
 [hr][/hr]

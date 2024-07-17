@@ -78,7 +78,7 @@
 [list]
 [*]灵感：[url=https://forums.kleientertainment.com/forums/topic/153929-solved-is-there-a-way-to-mute-sounds-without-fmod-errors-being-spammed-in-client-logs/]这篇帖子[/url]
 [*]代码：所有相似模组作者
-[*]图标：LuTxs & iaman2b
+[*]图标：LuXts & iaman2b
 [/list]
 
 [hr][/hr]
