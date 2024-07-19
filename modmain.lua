@@ -75,7 +75,7 @@ if Noise('Insane & Enlightened', 'Insanity Sounds') then
   Mute('dontstarve/sanity/lunacy_stinger')
 end
 if Noise('Nightberry Pulse Sound') then
-  Mute('meta4/ancienttree/nightvision/fruit_pulse')
+  Mute('meta4/ancienttree/nightvision/effect_LP')
 end
 if Noise('Overheating & Freezing', 'overheat') then
   Mute('dontstarve_DLC001/common/HUD_hot_level1')
