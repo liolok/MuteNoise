@@ -5,7 +5,7 @@ end
 name = T('Mute Noise', '噪声静音', '噪声靜音')
 author = T('方块味的菠萝酱, liolok', '方块味的菠萝酱、李皓奇')
 description = T('Have fun gaming!', '畅快游玩！', '暢快遊玩！')
-version = '2024.07.18.1'
+version = '2024.07.19.1'
 api_version = 10
 priority = -1 -- load later to over-remap sound events
 dst_compatible = true
