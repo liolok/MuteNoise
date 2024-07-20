@@ -72,6 +72,7 @@
 [*]Shadow Manipulator
 [*]Tackle Receptacle
 [*]Telelocator Focus
+[*]Terra Firma Tamper
 [*]Think Tank
 [/list]
 

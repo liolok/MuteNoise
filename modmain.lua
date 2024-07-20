@@ -279,6 +279,9 @@ end
 if Noise('Telelocator Focus') then
   Mute('dontstarve/common/telebase_hum')
 end
+if Noise('Terra Firma Tamper') then
+  Mute('grotto/common/turf_crafting_station/prox_LP')
+end
 if Noise('Think Tank') then
   Mute('turnoftides/common/together/seafaring_prototyper/LP')
 end
