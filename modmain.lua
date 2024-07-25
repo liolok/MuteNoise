@@ -74,6 +74,9 @@ if Noise('Insane & Enlightened', 'Insanity Sounds') then
   Mute('turnoftides/sanity/lunacy_LP')
   Mute('dontstarve/sanity/lunacy_stinger')
 end
+if Noise('Midsummer Cawnival') then
+  Mute('summerevent/music/1')
+end
 if Noise('Nightberry Pulse Sound') then
   Mute('meta4/ancienttree/nightvision/effect_LP')
 end
