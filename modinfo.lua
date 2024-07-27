@@ -36,6 +36,7 @@ Header('Most Annoying', '猜你嫌烦')
 Config('Flies', '苍蝇', '蒼蠅')
 Config('Friendly Fruit Fly', '友好果蝇', '友好果蠅')
 Config('Glommer', '格罗姆', '格羅姆')
+Config('Menu', '菜单', '選單')
 Config('Pets Hunger Cry', '宠物饥饿叫声', '寵物飢餓叫聲')
 Config('Sawhorse', '锯马', '鋸馬')
 

@@ -6,6 +6,7 @@
 [*]Flies
 [*]Friendly Fruit Fly
 [*]Glommer
+[*]Menu
 [*]Pets Hunger Cry
 [*]Sawhorse
 [/list]

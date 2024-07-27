@@ -24,6 +24,7 @@ HookSoundEvents({ 'Glommer', old = 'SilentGlommer' }, {
   'dontstarve_DLC001/creatures/glommer/bounce_ground',
   'dontstarve_DLC001/creatures/glommer/sleep_voice',
 })
+HookSoundEvents('Menu', GLOBAL.FE_MUSIC)
 HookSoundEvents({ 'Pets Hunger Cry', old = 'pet' }, {
   'dontstarve_DLC001/creatures/together/kittington/disstress', -- critter_kitten / Kittykit / 浣猫崽
   'dontstarve/creatures/together/pupington/bark', -- critter_puppy / Vargling / 小座狼
