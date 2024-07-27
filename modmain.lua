@@ -104,6 +104,10 @@ HookSoundEvents('Pipspook', {
 })
 HookSoundEvents('Portable Grinding Mill', 'dontstarve/common/together/portable/blender/proximity_LP')
 HookSoundEvents('Walter', 'dontstarve/characters/walter/talk_LP')
+HookSoundEvents('Weregoose', {
+  'dontstarve/characters/woodie/goose/flap',
+  'dontstarve/characters/woodie/goose/honk_LP',
+})
 HookSoundEvents("Winona's Generator & G.E.M.erator", {
   'dontstarve/common/together/battery/on_LP',
   'dontstarve/common/together/spot_light/electricity',

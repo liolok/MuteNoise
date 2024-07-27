@@ -65,6 +65,7 @@ Config('Mourning Glory', '哀悼荣耀', '哀悼榮耀')
 Config('Pipspook', '小惊吓', '小驚嚇')
 Config('Portable Grinding Mill', '便携研磨器', '便攜研磨器')
 Config('Walter', '沃尔特', '沃爾特')
+Config('Weregoose', '鹅人', '鵝人')
 Config("Winona's Generator & G.E.M.erator", '薇诺娜的（宝石）发电机', '薇諾娜的（寶石）發電機')
 
 Header('Creature', '生物')

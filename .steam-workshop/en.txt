@@ -35,6 +35,7 @@
 [*]Pipspook
 [*]Portable Grinding Mill
 [*]Walter
+[*]Weregoose
 [*]Winona's Generator & G.E.M.erator
 [/list]
 [h3]Creature[/h3]
