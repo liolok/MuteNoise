@@ -80,6 +80,7 @@ HookSoundEvents({ 'Overheating & Freezing', old = 'overheat' }, {
   'dontstarve/winter/freeze_3rd',
   'dontstarve/winter/freeze_4th',
 })
+HookSoundEvents('Sanstorm', 'dontstarve/common/together/sandstorm')
 HookSoundEvents('Season Wave Sound', {
   'dontstarve/AMB/waves', -- autumn and spring
   'dontstarve/AMB/waves_winter',
