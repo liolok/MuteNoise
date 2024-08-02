@@ -56,6 +56,7 @@
 [*]Moleworm
 [*]Mosquito
 [*]Rabbit
+[*]Spiders
 [/list]
 [h3]Equipment[/h3]
 [list]

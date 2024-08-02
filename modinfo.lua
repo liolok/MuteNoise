@@ -86,6 +86,7 @@ Config('Mandrake', '曼德拉草')
 Config('Moleworm', '鼹鼠', '鼴鼠')
 Config('Mosquito', '蚊子')
 Config('Rabbit', '兔子')
+Config('Spiders', '蜘蛛类', '蜘蛛類')
 
 Header('Equipment', '装备', '裝備')
 

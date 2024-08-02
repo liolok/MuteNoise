@@ -197,6 +197,23 @@ Hook({ 'Rabbit', old = 'rabbit' }, {
   'dontstarve/rabbit/beardscream',
   'dontstarve/rabbit/winterscream',
 })
+Hook({ 'Spiders', old = 'spider' }, {
+  -- prefabs/spider.lua:SoundPath() and stategraphs/SGspider.lua
+  'dontstarve/creatures/spider/scream',
+  'dontstarve/creatures/spider/walk_spider',
+  'dontstarve/creatures/spiderwarrior/scream', -- Spider Warrior, Dangling Depth Dweller / 蜘蛛战士、穴居悬蛛
+  'dontstarve/creatures/spiderwarrior/walk_spider',
+  'dontstarve/creatures/cavespider/scream', -- Cave Spider， Spitter / 洞穴蜘蛛、喷射蜘蛛
+  'dontstarve/creatures/cavespider/walk_spider',
+  'turnoftides/creatures/together/spider_moon/scream', -- Shattered Spider / 破碎蜘蛛
+  'turnoftides/creatures/together/spider_moon/walk_spider',
+  'webber1/creatures/spider_cannonfodder/scream', -- Nurse Spider / 护士蜘蛛
+  'webber1/creatures/spider_cannonfodder/walk_spider',
+  -- stategraphs/SGspider_water.lua
+  'waterlogged1/creatures/spider_water/scream', -- Sea Strider / 海黾
+  'waterlogged1/creatures/spider_water/walk_spider',
+  'waterlogged1/creatures/spider_water/walk_water',
+})
 
 -- Equipment -------------------------------------------------------------------
 
