@@ -80,7 +80,7 @@ Hook({ 'Overheating & Freezing', old = 'overheat' }, {
   'dontstarve/winter/freeze_3rd',
   'dontstarve/winter/freeze_4th',
 })
-Hook('Sanstorm', 'dontstarve/common/together/sandstorm')
+Hook('Sandstorm', 'dontstarve/common/together/sandstorm')
 Hook('Season Wave Sound', {
   'dontstarve/AMB/waves', -- autumn and spring
   'dontstarve/AMB/waves_winter',
