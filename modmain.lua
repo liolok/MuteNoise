@@ -179,6 +179,11 @@ Hook({ 'Grass Gekko', old = 'grassgekko' }, {
   'dontstarve/creatures/together/grass_gekko/sleep_pre',
   'dontstarve/creatures/together/grass_gekko/sleep',
 })
+Hook('Hutch', {
+  'dontstarve/creatures/together/hutch/pant',
+  'dontstarve/creatures/together/hutch/bounce',
+  'dontstarve/creatures/together/hutch/clap',
+})
 Hook({ 'Mandrake', old = 'SilentMandrake' }, 'dontstarve/creatures/mandrake/walk')
 Hook({ 'Moleworm', old = 'mole' }, {
   'dontstarve_DLC001/creatures/mole/sleep',
@@ -191,11 +196,25 @@ Hook({ 'Moleworm', old = 'mole' }, {
   'dontstarve_DLC001/creatures/mole/move',
 })
 Hook({ 'Mosquito', old = 'mosquito' }, 'dontstarve/creatures/mosquito/mosquito_fly_LP')
+Hook('Pengull', 'dontstarve/creatures/pengull/idle')
 Hook({ 'Rabbit', old = 'rabbit' }, {
   'dontstarve/rabbit/hop',
   'dontstarve/rabbit/scream',
   'dontstarve/rabbit/beardscream',
   'dontstarve/rabbit/winterscream',
+})
+Hook('Smallbird', {
+  'dontstarve/creatures/smallbird/blink',
+  'dontstarve/creatures/smallbird/chirp',
+  'dontstarve/creatures/smallbird/chirp_short',
+  'dontstarve/creatures/smallbird/scratch_ground',
+  'dontstarve/creatures/smallbird/wings',
+  'dontstarve/creatures/smallbird/sleep',
+  'dontstarve/creatures/smallbird/wakeup',
+})
+Hook('Smallish Tallbird', {
+  'dontstarve/creatures/teenbird/blink',
+  'dontstarve/creatures/teenbird/chirp',
 })
 Hook({ 'Spiders', old = 'spider' }, {
   -- prefabs/spider.lua:SoundPath() and stategraphs/SGspider.lua
