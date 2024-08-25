@@ -126,6 +126,7 @@ Hook({ 'Bee', old = 'bee' }, {
   'dontstarve/bee/killerbee_takeoff',
   'dontstarve/bee/killerbee_fly_LP',
 })
+Hook('Beefalo Food Begging', 'dontstarve/beefalo/beg')
 Hook({ 'Birds', old = 'bird' }, {
   'dontstarve/birds/flyin',
   'dontstarve/birds/chirp_crow', -- Crow & Polly Roger / 乌鸦、波莉·罗杰
