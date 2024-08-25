@@ -43,6 +43,7 @@
 [h3]Creature[/h3]
 [list]
 [*]Bee
+[*]Beefalo Food Begging
 [*]Birds
 [*]Bulbous Lightbug
 [*]Buzzard
@@ -52,10 +53,14 @@
 [*]Frog
 [*]Gobbler
 [*]Grass Gekko
+[*]Hutch
 [*]Mandrake
 [*]Moleworm
 [*]Mosquito
+[*]Pengull
 [*]Rabbit
+[*]Smallbird
+[*]Smallish Tallbird
 [*]Spiders
 [/list]
 [h3]Equipment[/h3]
