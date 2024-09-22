@@ -61,6 +61,7 @@ Header('Character', '角色')
 
 Config('Abigail', '阿比盖尔', '阿比蓋爾')
 Config('Battle Saddle Music', '战斗鞍具音乐', '戰鬥鞍具音樂')
+Config('Charged Elding Spear', '充能奔雷矛')
 Config('Chorusbox Circuit', '合唱盒电路', '合唱盒電路')
 Config('Lucy the Axe', '露西斧')
 Config('Mourning Glory', '哀悼荣耀', '哀悼榮耀')

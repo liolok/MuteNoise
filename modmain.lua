@@ -97,6 +97,7 @@ Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
 
 Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl')
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
+Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
 Hook('Chorusbox Circuit', 'WX_rework/module/musicmodule_lp')
 Hook({ 'Lucy the Axe', old = 'lucy' }, 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
