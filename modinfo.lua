@@ -54,6 +54,7 @@ Config('Overheating & Freezing', '过热、过冷', '過熱、過冷')
 Config('Sandstorm', '沙尘暴', '沙塵暴')
 Config('Season Wave Sound', '季节声浪', '季節聲浪')
 Config('Shell Beach Turf', '贝壳海滩地皮', '貝殼海灘地皮')
+Config('Sproutrock', '萌芽石')
 Config('Thunder', '雷声', '雷聲')
 Config('Worm Hole', '虫洞', '蟲洞')
 

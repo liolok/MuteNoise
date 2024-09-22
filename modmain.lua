@@ -87,6 +87,7 @@ Hook('Season Wave Sound', {
   'dontstarve_DLC001/AMB/waves_summer',
 })
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
+Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
 Hook({ 'Thunder', old = 'thunder' }, {
   'dontstarve/rain/thunder_close',
   'dontstarve/rain/thunder_far',
