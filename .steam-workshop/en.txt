@@ -24,6 +24,7 @@
 [*]Sandstorm
 [*]Season Wave Sound
 [*]Shell Beach Turf
+[*]Sproutrock
 [*]Thunder
 [*]Worm Hole
 [/list]
@@ -31,6 +32,7 @@
 [list]
 [*]Abigail
 [*]Battle Saddle Music
+[*]Charged Elding Spear
 [*]Chorusbox Circuit
 [*]Lucy the Axe
 [*]Mourning Glory
