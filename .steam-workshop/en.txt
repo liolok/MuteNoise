@@ -82,6 +82,7 @@
 [*]Florid Postern & Celestial Portal
 [*]Ice Crystaleyezer
 [*]Ice Flingomatic
+[*]Night Light
 [*]Scaled Furnace
 [*]Shadow Manipulator
 [*]Tackle Receptacle

@@ -262,6 +262,7 @@ Hook({ 'Ice Flingomatic', old = 'SilentFiresuppressor' }, {
   'dontstarve_DLC001/common/firesupressor_idle',
   'dontstarve_DLC001/common/firesupressor_chuff',
 })
+Hook('Night Light', 'dontstarve/common/nightlight')
 Hook({ 'Scaled Furnace', old = 'dragonflyfurnace' }, 'dontstarve/common/together/dragonfly_furnace/fire_LP')
 Hook('Shadow Manipulator', 'dontstarve/common/researchmachine_lvl3_idle_LP')
 Hook('Tackle Receptacle', 'hookline/common/tackle_station/proximity_LP')
