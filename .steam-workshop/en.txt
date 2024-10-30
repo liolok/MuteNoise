@@ -44,6 +44,7 @@
 [/list]
 [h3]Creature[/h3]
 [list]
+[*]Batilisk
 [*]Bee
 [*]Beefalo Food Begging
 [*]Birds

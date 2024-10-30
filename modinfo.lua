@@ -74,6 +74,7 @@ Config("Winona's Generator & G.E.M.erator", '薇诺娜的（宝石）发电机',
 
 Header('Creature', '生物')
 
+Config('Batilisk', '洞穴蝙蝠')
 Config('Bee', '蜜蜂')
 Config('Beefalo Food Begging', '皮弗娄牛讨食', '皮弗婁牛討食')
 Config('Birds', '鸟类', '鳥類')

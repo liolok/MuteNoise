@@ -122,6 +122,11 @@ Hook("Winona's Generator & G.E.M.erator", {
 
 -- Creatures -------------------------------------------------------------------
 
+Hook('Batilisk', {
+  'dontstarve/creatures/bat/flap',
+  'dontstarve/creatures/bat/sleep',
+  'dontstarve/creatures/bat/taunt',
+})
 Hook({ 'Bee', old = 'bee' }, {
   'dontstarve/bee/bee_takeoff',
   'dontstarve/bee/bee_fly_LP',
@@ -154,7 +159,7 @@ Hook('Carrat', {
   'turnoftides/creatures/together/carrat/emerge',
   'turnoftides/creatures/together/carrat/submerge',
   'turnoftides/creatures/together/carrat/stunned',
-  'turnoftides/creatures/together/carrat/reaction'
+  'turnoftides/creatures/together/carrat/reaction',
 })
 Hook({ 'Catcoon', old = 'catcoon' }, {
   'dontstarve_DLC001/creatures/catcoon/swipe_tail',
