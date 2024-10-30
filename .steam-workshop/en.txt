@@ -69,6 +69,7 @@
 [h3]Equipment[/h3]
 [list]
 [*]Bone Armor
+[*]Brightshade Armor
 [*]Krampus Sack
 [*]Morning Star
 [*]Night Armor

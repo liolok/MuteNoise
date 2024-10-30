@@ -241,6 +241,7 @@ Hook('Tentacle', 'dontstarve/tentacle/tentacle_rumble_LP')
 -- Equipment -------------------------------------------------------------------
 
 Hook('Bone Armor', 'dontstarve/movement/foley/bone')
+Hook('Brightshade Armor', 'dontstarve/movement/foley/lunarplantarmour_foley')
 Hook('Krampus Sack', 'dontstarve/movement/foley/krampuspack')
 Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
