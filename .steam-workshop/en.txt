@@ -64,6 +64,7 @@
 [*]Smallbird
 [*]Smallish Tallbird
 [*]Spiders
+[*]Tentacle
 [/list]
 [h3]Equipment[/h3]
 [list]

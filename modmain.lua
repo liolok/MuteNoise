@@ -236,6 +236,7 @@ Hook({ 'Spiders', old = 'spider' }, {
   'waterlogged1/creatures/spider_water/walk_spider',
   'waterlogged1/creatures/spider_water/walk_water',
 })
+Hook('Tentacle', 'dontstarve/tentacle/tentacle_rumble_LP')
 
 -- Equipment -------------------------------------------------------------------
 

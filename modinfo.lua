@@ -94,6 +94,7 @@ Config('Rabbit', '兔子')
 Config('Smallbird', '幼年高脚鸟', '幼年高腳鳥')
 Config('Smallish Tallbird', '青年高脚鸟', '青年高腳鳥')
 Config('Spiders', '蜘蛛类', '蜘蛛類')
+Config('Tentacle', '触手', '觸手')
 
 Header('Equipment', '装备', '裝備')
 
