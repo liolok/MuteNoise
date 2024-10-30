@@ -49,6 +49,7 @@
 [*]Birds
 [*]Bulbous Lightbug
 [*]Buzzard
+[*]Carrat
 [*]Catcoon
 [*]Chester
 [*]Dust Moth

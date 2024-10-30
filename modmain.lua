@@ -148,6 +148,14 @@ Hook({ 'Birds', old = 'bird' }, {
 })
 Hook('Bulbous Lightbug', 'grotto/creatures/light_bug/fly_LP')
 Hook({ 'Buzzard', old = 'buzzard' }, 'dontstarve_DLC001/creatures/buzzard/hurt')
+Hook('Carrat', {
+  'turnoftides/creatures/together/carrat/idle',
+  'turnoftides/creatures/together/carrat/sleep',
+  'turnoftides/creatures/together/carrat/emerge',
+  'turnoftides/creatures/together/carrat/submerge',
+  'turnoftides/creatures/together/carrat/stunned',
+  'turnoftides/creatures/together/carrat/reaction'
+})
 Hook({ 'Catcoon', old = 'catcoon' }, {
   'dontstarve_DLC001/creatures/catcoon/swipe_tail',
   'dontstarve_DLC001/creatures/catcoon/hiss_pre',
