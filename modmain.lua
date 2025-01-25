@@ -40,10 +40,11 @@ Hook({ 'Pets Hunger Cry', old = 'pet' }, {
   'terraria1/mini_eyeofterror/distress', -- critter_eyeofterror / Friendly Peeper / 友好窥视者
   'dontstarve/characters/walter/woby/small/bark', -- wobysmall / Woby / 沃比
 })
-Hook('Sawhorse', {
+Hook({ 'Sawhorse (Nearby)', old = 'Sawhorse' }, {
   'rifts3/sawhorse/proximity_lp',
   'rifts3/sawhorse/proximity_lp_pst',
 })
+Hook('Sawhorse (Saw Blade)', 'rifts3/sawhorse/use')
 
 -- Ambience --------------------------------------------------------------------
 
