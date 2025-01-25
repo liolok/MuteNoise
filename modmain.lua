@@ -25,7 +25,7 @@ Hook('Glommer', {
   'dontstarve_DLC001/creatures/glommer/sleep_voice',
 })
 Hook('Menu', GLOBAL.FE_MUSIC)
-Hook({ 'Pets Hunger Cry', old = 'pet' }, {
+Hook('Pets Hunger Cry', {
   'dontstarve_DLC001/creatures/together/kittington/disstress', -- critter_kitten / Kittykit / 浣猫崽
   'dontstarve/creatures/together/pupington/bark', -- critter_puppy / Vargling / 小座狼
   'dontstarve/creatures/together/sheepington/angry', -- critter_lamb / Ewelet / 小钢羊
