@@ -7,7 +7,8 @@ local function Hook(config, events)
   end
 end
 
--- Most Annoying ---------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Most Annoying
 
 Hook('Flies', 'dontstarve/common/flies')
 Hook('Friendly Fruit Fly', {
@@ -45,7 +46,8 @@ Hook('Sawhorse', {
   'rifts3/sawhorse/use',
 })
 
--- Ambience --------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Ambience
 
 Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
@@ -100,7 +102,8 @@ Hook('Thunder', {
 })
 Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
 
--- Characters ------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Characters
 
 Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl')
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
@@ -136,7 +139,8 @@ Hook("Winona's Generator & G.E.M.erator", {
   'meta4/winona_battery/purebrillance_overloaded_lp',
 })
 
--- Creatures -------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Creatures
 
 Hook('Batilisk', {
   'dontstarve/creatures/bat/flap',
@@ -278,7 +282,8 @@ Hook('Spiders', {
 })
 Hook('Tentacle', 'dontstarve/tentacle/tentacle_rumble_LP')
 
--- Equipment -------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Equipment
 
 Hook('Bone Armor', 'dontstarve/movement/foley/bone')
 Hook('Brightshade Armor', 'dontstarve/movement/foley/lunarplantarmour_foley')
@@ -287,7 +292,8 @@ Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
 Hook('Thulecite Suit & W.A.R.B.I.S. Armor', 'dontstarve/movement/foley/metalarmour')
 
--- Structure -------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- Structure
 
 Hook('Alchemy Engine', 'dontstarve/common/researchmachine_lvl2_idle_LP')
 Hook('Bee Box', 'dontstarve/bee/bee_box_LP')
