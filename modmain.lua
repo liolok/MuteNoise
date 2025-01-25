@@ -9,12 +9,12 @@ end
 
 -- Most Annoying ---------------------------------------------------------------
 
-Hook({ 'Flies', old = 'poop' }, 'dontstarve/common/flies')
+Hook('Flies', 'dontstarve/common/flies')
 Hook('Friendly Fruit Fly', {
   'farming/creatures/fruitfly/LP',
   'farming/creatures/fruitfly/sleep',
 })
-Hook({ 'Glommer', old = 'SilentGlommer' }, {
+Hook('Glommer', {
   'dontstarve_DLC001/creatures/glommer/flap',
   'dontstarve_DLC001/creatures/glommer/idle_voice',
   'dontstarve_DLC001/creatures/glommer/vomit_voice',
@@ -48,23 +48,23 @@ Hook('Sawhorse', {
 -- Ambience --------------------------------------------------------------------
 
 Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
-Hook({ 'Bird Trap', old = 'birdtrap' }, 'dontstarve/common/birdtrap_rustle')
+Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
 Hook('Craft Menu', {
   'dontstarve/HUD/research_available',
   'dontstarve/HUD/recipe_ready',
 })
 Hook('Dock Walk', 'monkeyisland/dock/run_dock')
-Hook({ 'Dwarf Star & Polar Light', old = 'staff' }, {
+Hook('Dwarf Star & Polar Light', {
   'dontstarve/common/staff_star_LP',
   'dontstarve/common/staff_coldlight_LP',
 })
-Hook({ 'Fire Consuming Shadow Hand', old = 'shadowhand' }, {
+Hook('Fire Consuming Shadow Hand', {
   'dontstarve/sanity/shadowhand_snuff',
   'dontstarve/sanity/shadowhand_creep',
   'dontstarve/sanity/shadowhand_retreat',
 })
-Hook({ 'Insane & Enlightened', old = 'Insanity Sounds' }, {
+Hook('Insane & Enlightened', {
   'dontstarve/sanity/sanity',
   'dontstarve/sanity/gonecrazy_stinger',
   'turnoftides/sanity/lunacy_LP',
@@ -72,7 +72,7 @@ Hook({ 'Insane & Enlightened', old = 'Insanity Sounds' }, {
 })
 Hook('Midsummer Cawnival', 'summerevent/music/1')
 Hook('Nightberry Pulse Sound', 'meta4/ancienttree/nightvision/effect_LP')
-Hook({ 'Overheating & Freezing', old = 'overheat' }, {
+Hook('Overheating & Freezing', {
   'dontstarve_DLC001/common/HUD_hot_level1',
   'dontstarve_DLC001/common/HUD_hot_level2',
   'dontstarve_DLC001/common/HUD_hot_level3',
@@ -94,7 +94,7 @@ Hook('Season Wave Sound', {
 })
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
-Hook({ 'Thunder', old = 'thunder' }, {
+Hook('Thunder', {
   'dontstarve/rain/thunder_close',
   'dontstarve/rain/thunder_far',
 })
@@ -106,7 +106,7 @@ Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl')
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
 Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
 Hook('Chorusbox Circuit', 'WX_rework/module/musicmodule_lp')
-Hook({ 'Lucy the Axe', old = 'lucy' }, 'dontstarve/characters/woodie/lucytalk_LP')
+Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
 Hook('Pipspook', {
   'dontstarve/characters/wendy/small_ghost/howl',
@@ -143,7 +143,7 @@ Hook('Batilisk', {
   'dontstarve/creatures/bat/sleep',
   'dontstarve/creatures/bat/taunt',
 })
-Hook({ 'Bee', old = 'bee' }, {
+Hook('Bee', {
   'dontstarve/bee/bee_takeoff',
   'dontstarve/bee/bee_fly_LP',
   'dontstarve/bee/killerbee_takeoff',
@@ -161,7 +161,7 @@ Hook('Beefalo', {
   'dontstarve/beefalo/eat_treat',
   'dontstarve/beefalo/chew',
 })
-Hook({ 'Birds', old = 'bird' }, {
+Hook('Birds', {
   'dontstarve/birds/flyin',
   'dontstarve/birds/chirp_crow', -- Crow & Polly Roger / 乌鸦、波莉·罗杰
   'dontstarve/birds/takeoff_crow',
@@ -179,7 +179,7 @@ Hook({ 'Birds', old = 'bird' }, {
   'moonstorm/creatures/mutated_crow/take_off',
 })
 Hook('Bulbous Lightbug', 'grotto/creatures/light_bug/fly_LP')
-Hook({ 'Buzzard', old = 'buzzard' }, 'dontstarve_DLC001/creatures/buzzard/hurt')
+Hook('Buzzard', 'dontstarve_DLC001/creatures/buzzard/hurt')
 Hook('Carrat', {
   'turnoftides/creatures/together/carrat/idle',
   'turnoftides/creatures/together/carrat/sleep',
@@ -188,7 +188,7 @@ Hook('Carrat', {
   'turnoftides/creatures/together/carrat/stunned',
   'turnoftides/creatures/together/carrat/reaction',
 })
-Hook({ 'Catcoon', old = 'catcoon' }, {
+Hook('Catcoon', {
   'dontstarve_DLC001/creatures/catcoon/swipe_tail',
   'dontstarve_DLC001/creatures/catcoon/hiss_pre',
   'dontstarve_DLC001/creatures/catcoon/hiss',
@@ -201,22 +201,22 @@ Hook({ 'Catcoon', old = 'catcoon' }, {
   'dontstarve_DLC001/creatures/catcoon/yawn',
   'dontstarve_DLC001/creatures/catcoon/sleep',
 })
-Hook({ 'Chester', old = 'chester' }, {
+Hook('Chester', {
   'dontstarve/creatures/chester/pant',
   'dontstarve/creatures/chester/boing',
 })
 Hook('Dust Moth', 'grotto/creatures/dust_moth/mumble')
-Hook({ 'Frog', old = 'frog' }, {
+Hook('Frog', {
   'dontstarve/frog/grunt',
   'dontstarve/frog/walk',
   'rifts3/mutated_frog/grunt', -- Bright-Eyed Frog / 明眼青蛙
   'rifts3/mutated_frog/walk',
 })
-Hook({ 'Gobbler', old = 'perd' }, {
+Hook('Gobbler', {
   'dontstarve/creatures/perd/gobble',
   'dontstarve/creatures/perd/sleep',
 })
-Hook({ 'Grass Gekko', old = 'grassgekko' }, {
+Hook('Grass Gekko', {
   'dontstarve/creatures/together/grass_gekko/tail_off',
   'dontstarve/creatures/together/grass_gekko/tail_regrow',
   'dontstarve/creatures/together/grass_gekko/sleep_pre',
@@ -227,8 +227,8 @@ Hook('Hutch', {
   'dontstarve/creatures/together/hutch/bounce',
   'dontstarve/creatures/together/hutch/clap',
 })
-Hook({ 'Mandrake', old = 'SilentMandrake' }, 'dontstarve/creatures/mandrake/walk')
-Hook({ 'Moleworm', old = 'mole' }, {
+Hook('Mandrake', 'dontstarve/creatures/mandrake/walk')
+Hook('Moleworm', {
   'dontstarve_DLC001/creatures/mole/sleep',
   'dontstarve_DLC001/creatures/mole/emerge',
   'dontstarve_DLC001/creatures/mole/emerge_voice',
@@ -238,9 +238,9 @@ Hook({ 'Moleworm', old = 'mole' }, {
   'dontstarve_DLC001/creatures/mole/retract',
   'dontstarve_DLC001/creatures/mole/move',
 })
-Hook({ 'Mosquito', old = 'mosquito' }, 'dontstarve/creatures/mosquito/mosquito_fly_LP')
+Hook('Mosquito', 'dontstarve/creatures/mosquito/mosquito_fly_LP')
 Hook('Pengull', 'dontstarve/creatures/pengull/idle')
-Hook({ 'Rabbit', old = 'rabbit' }, {
+Hook('Rabbit', {
   'dontstarve/rabbit/hop',
   'dontstarve/rabbit/scream',
   'dontstarve/rabbit/beardscream',
@@ -259,7 +259,7 @@ Hook('Smallish Tallbird', {
   'dontstarve/creatures/teenbird/blink',
   'dontstarve/creatures/teenbird/chirp',
 })
-Hook({ 'Spiders', old = 'spider' }, {
+Hook('Spiders', {
   -- prefabs/spider.lua:SoundPath() and stategraphs/SGspider.lua
   'dontstarve/creatures/spider/scream',
   'dontstarve/creatures/spider/walk_spider',
@@ -298,7 +298,7 @@ Hook({ 'Florid Postern & Celestial Portal', old = 'spawnportal' }, {
   'dontstarve/common/together/spawn_vines/vines',
 })
 Hook('Ice Crystaleyezer', 'rifts3/oculus_ice_radius/ambient_lp')
-Hook({ 'Ice Flingomatic', old = 'SilentFiresuppressor' }, {
+Hook('Ice Flingomatic', {
   'dontstarve_DLC001/common/firesupressor_idle',
   'dontstarve_DLC001/common/firesupressor_chuff',
   'dontstarve_DLC001/common/firesupressor_spin',
@@ -306,7 +306,7 @@ Hook({ 'Ice Flingomatic', old = 'SilentFiresuppressor' }, {
   'dontstarve_DLC001/common/firesupressor_impact', -- on snowball hit ground
 })
 Hook('Night Light', 'dontstarve/common/nightlight')
-Hook({ 'Scaled Furnace', old = 'dragonflyfurnace' }, 'dontstarve/common/together/dragonfly_furnace/fire_LP')
+Hook('Scaled Furnace', 'dontstarve/common/together/dragonfly_furnace/fire_LP')
 Hook('Shadow Manipulator', 'dontstarve/common/researchmachine_lvl3_idle_LP')
 Hook('Tackle Receptacle', 'hookline/common/tackle_station/proximity_LP')
 Hook('Telelocator Focus', 'dontstarve/common/telebase_hum')
