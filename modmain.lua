@@ -112,6 +112,16 @@ Hook('Weregoose', {
   'dontstarve/characters/woodie/goose/flap',
   'dontstarve/characters/woodie/goose/honk_LP',
 })
+Hook("Winona's Catapult", {
+  'dontstarve/common/together/catapult/ratchet_LP',
+  'dontstarve/common/together/catapult/rock_hit',
+  'meta4/winona_catapult/shadow_projectile_explode',
+  'meta4/winona_catapult/shadow_projectile_hit',
+  'meta4/winona_catapult/lunar_projectile_explode',
+  'meta4/winona_catapult/lunar_projectile_hit',
+  'meta4/winona_catapult/lunar_shadow_combo_explode',
+  'meta4/winona_catapult/lunar_shadow_combo_hit',
+})
 Hook("Winona's Generator & G.E.M.erator", {
   'dontstarve/common/together/battery/on_LP',
   'dontstarve/common/together/spot_light/electricity',
