@@ -80,6 +80,10 @@ Hook({ 'Overheating & Freezing', old = 'overheat' }, {
   'dontstarve/winter/freeze_3rd',
   'dontstarve/winter/freeze_4th',
 })
+Hook('Polar Bearger Bin', {
+  'rifts3/bearger_sack/open_f5_loopstart',
+  'rifts3/bearger_sack/close',
+})
 Hook('Sandstorm', 'dontstarve/common/together/sandstorm')
 Hook('Season Wave Sound', {
   'dontstarve/AMB/waves', -- autumn and spring
