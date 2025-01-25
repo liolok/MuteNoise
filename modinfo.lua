@@ -42,6 +42,7 @@ Config('Sawhorse', '锯马', '鋸馬')
 
 Header('Ambience', '环境', '環境')
 
+Config('Astral Detector', '星象探测仪', '星象探測儀')
 Config('Bird Trap', '捕鸟陷阱', '捕鳥陷阱')
 Config('Celestial Orb', '天体宝球', '天體寶球')
 Config('Craft Menu', '制作菜单', '製作菜單')

@@ -47,6 +47,7 @@ Hook('Sawhorse', {
 
 -- Ambience --------------------------------------------------------------------
 
+Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
 Hook({ 'Bird Trap', old = 'birdtrap' }, 'dontstarve/common/birdtrap_rustle')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
 Hook('Craft Menu', {
