@@ -54,6 +54,7 @@ Hook('Craft Menu', {
   'dontstarve/HUD/research_available',
   'dontstarve/HUD/recipe_ready',
 })
+Hook('Dock Walk', 'monkeyisland/dock/run_dock')
 Hook({ 'Dwarf Star & Polar Light', old = 'staff' }, {
   'dontstarve/common/staff_star_LP',
   'dontstarve/common/staff_coldlight_LP',
