@@ -148,7 +148,18 @@ Hook({ 'Bee', old = 'bee' }, {
   'dontstarve/bee/killerbee_takeoff',
   'dontstarve/bee/killerbee_fly_LP',
 })
-Hook('Beefalo Food Begging', 'dontstarve/beefalo/beg')
+Hook('Beefalo', {
+  'dontstarve/beefalo/walk',
+  'dontstarve/beefalo/grunt',
+  'dontstarve/beefalo/yell',
+  'dontstarve/beefalo/tail_swish',
+  'dontstarve/beefalo/curious',
+  'dontstarve/beefalo/angry',
+  'dontstarve/beefalo/sleep',
+  'dontstarve/beefalo/beg',
+  'dontstarve/beefalo/eat_treat',
+  'dontstarve/beefalo/chew',
+})
 Hook({ 'Birds', old = 'bird' }, {
   'dontstarve/birds/flyin',
   'dontstarve/birds/chirp_crow', -- Crow & Polly Roger / 乌鸦、波莉·罗杰

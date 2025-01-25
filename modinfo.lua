@@ -80,7 +80,7 @@ Header('Creature', '生物')
 
 Config('Batilisk', '洞穴蝙蝠')
 Config('Bee', '蜜蜂')
-Config('Beefalo Food Begging', '皮弗娄牛讨食', '皮弗婁牛討食')
+Config('Beefalo', '皮弗娄牛', '皮弗婁牛')
 Config('Birds', '鸟类', '鳥類')
 Config('Bulbous Lightbug', '球状光虫', '球狀光蟲')
 Config('Buzzard', '秃鹫', '禿鷲')
