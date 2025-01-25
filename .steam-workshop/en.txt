@@ -12,9 +12,11 @@
 [/list]
 [h3]Ambience[/h3]
 [list]
+[*]Astral Detector
 [*]Bird Trap
 [*]Celestial Orb
 [*]Craft Menu
+[*]Dock Walk
 [*]Dwarf Star & Polar Light
 [*]Fire Consuming Shadow Hand
 [*]Insane & Enlightened

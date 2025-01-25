@@ -38,8 +38,7 @@ Config('Friendly Fruit Fly', '友好果蝇', '友好果蠅')
 Config('Glommer', '格罗姆', '格羅姆')
 Config('Menu', '菜单', '選單')
 Config('Pets Hunger Cry', '宠物饥饿叫声', '寵物飢餓叫聲')
-Config('Sawhorse (Nearby)', '锯马（靠近）', '鋸馬（靠近）')
-Config('Sawhorse (Saw Blade)', '锯马（锯片）', '鋸馬（鋸片）')
+Config('Sawhorse', '锯马', '鋸馬')
 
 Header('Ambience', '环境', '環境')
 
