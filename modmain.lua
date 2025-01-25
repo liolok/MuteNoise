@@ -274,6 +274,9 @@ Hook('Ice Crystaleyezer', 'rifts3/oculus_ice_radius/ambient_lp')
 Hook({ 'Ice Flingomatic', old = 'SilentFiresuppressor' }, {
   'dontstarve_DLC001/common/firesupressor_idle',
   'dontstarve_DLC001/common/firesupressor_chuff',
+  'dontstarve_DLC001/common/firesupressor_spin',
+  'dontstarve_DLC001/common/firesupressor_shoot',
+  'dontstarve_DLC001/common/firesupressor_impact', -- on snowball hit ground
 })
 Hook('Night Light', 'dontstarve/common/nightlight')
 Hook({ 'Scaled Furnace', old = 'dragonflyfurnace' }, 'dontstarve/common/together/dragonfly_furnace/fire_LP')
