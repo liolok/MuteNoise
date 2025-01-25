@@ -23,6 +23,7 @@
 [*]Midsummer Cawnival
 [*]Nightberry Pulse Sound
 [*]Overheating & Freezing
+[*]Polar Bearger Bin
 [*]Sandstorm
 [*]Season Wave Sound
 [*]Shell Beach Turf
@@ -42,13 +43,14 @@
 [*]Portable Grinding Mill
 [*]Walter
 [*]Weregoose
+[*]Winona's Catapult
 [*]Winona's Generator & G.E.M.erator
 [/list]
 [h3]Creature[/h3]
 [list]
 [*]Batilisk
 [*]Bee
-[*]Beefalo Food Begging
+[*]Beefalo
 [*]Birds
 [*]Bulbous Lightbug
 [*]Buzzard
