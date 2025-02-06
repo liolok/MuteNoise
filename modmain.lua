@@ -297,7 +297,7 @@ Hook('Thulecite Suit & W.A.R.B.I.S. Armor', 'dontstarve/movement/foley/metalarmo
 
 Hook('Alchemy Engine', 'dontstarve/common/researchmachine_lvl2_idle_LP')
 Hook('Bee Box', 'dontstarve/bee/bee_box_LP')
-Hook({ 'Florid Postern & Celestial Portal', old = 'spawnportal' }, {
+Hook('Florid Postern & Celestial Portal', {
   'dontstarve/common/together/spawn_vines/spawnportal_idle_LP',
   'dontstarve/common/together/spawn_vines/spawnportal_jacob',
   'dontstarve/common/together/spawn_vines/spawnportal_blink',
