@@ -311,6 +311,11 @@ Hook('Ice Flingomatic', {
   'dontstarve_DLC001/common/firesupressor_shoot',
   'dontstarve_DLC001/common/firesupressor_impact', -- on snowball hit ground
 })
+Hook('Moon Dial', {
+  'dontstarve/common/together/moondial/full_LP',
+  'dontstarve/common/together/moondial/fill',
+  'dontstarve/common/together/moondial/water_movement',
+})
 Hook('Night Light', 'dontstarve/common/nightlight')
 Hook('Scaled Furnace', 'dontstarve/common/together/dragonfly_furnace/fire_LP')
 Hook('Shadow Manipulator', 'dontstarve/common/researchmachine_lvl3_idle_LP')
