@@ -11,10 +11,7 @@ end
 -- Most Annoying
 
 Hook('Flies', 'dontstarve/common/flies')
-Hook('Friendly Fruit Fly', {
-  'farming/creatures/fruitfly/LP',
-  'farming/creatures/fruitfly/sleep',
-})
+Hook('Friendly Fruit Fly', { 'farming/creatures/fruitfly/LP', 'farming/creatures/fruitfly/sleep' })
 Hook('Glommer', {
   'dontstarve_DLC001/creatures/glommer/flap',
   'dontstarve_DLC001/creatures/glommer/idle_voice',
@@ -40,11 +37,7 @@ Hook('Pets Hunger Cry', {
   'terraria1/mini_eyeofterror/distress', -- critter_eyeofterror / Friendly Peeper / 友好窥视者
   'dontstarve/characters/walter/woby/small/bark', -- wobysmall / Woby / 沃比
 })
-Hook('Sawhorse', {
-  'rifts3/sawhorse/proximity_lp',
-  'rifts3/sawhorse/proximity_lp_pst',
-  'rifts3/sawhorse/use',
-})
+Hook('Sawhorse', { 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_pst', 'rifts3/sawhorse/use' })
 
 --------------------------------------------------------------------------------
 -- Ambience
@@ -52,15 +45,9 @@ Hook('Sawhorse', {
 Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
-Hook('Craft Menu', {
-  'dontstarve/HUD/research_available',
-  'dontstarve/HUD/recipe_ready',
-})
+Hook('Craft Menu', { 'dontstarve/HUD/research_available', 'dontstarve/HUD/recipe_ready' })
 Hook('Dock Walk', 'monkeyisland/dock/run_dock')
-Hook('Dwarf Star & Polar Light', {
-  'dontstarve/common/staff_star_LP',
-  'dontstarve/common/staff_coldlight_LP',
-})
+Hook('Dwarf Star & Polar Light', { 'dontstarve/common/staff_star_LP', 'dontstarve/common/staff_coldlight_LP' })
 Hook('Fire Consuming Shadow Hand', {
   'dontstarve/sanity/shadowhand_snuff',
   'dontstarve/sanity/shadowhand_creep',
@@ -84,10 +71,7 @@ Hook('Overheating & Freezing', {
   'dontstarve/winter/freeze_3rd',
   'dontstarve/winter/freeze_4th',
 })
-Hook('Polar Bearger Bin', {
-  'rifts3/bearger_sack/open_f5_loopstart',
-  'rifts3/bearger_sack/close',
-})
+Hook('Polar Bearger Bin', { 'rifts3/bearger_sack/open_f5_loopstart', 'rifts3/bearger_sack/close' })
 Hook('Sandstorm', 'dontstarve/common/together/sandstorm')
 Hook('Season Wave Sound', {
   'dontstarve/AMB/waves', -- autumn and spring
@@ -96,10 +80,7 @@ Hook('Season Wave Sound', {
 })
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
-Hook('Thunder', {
-  'dontstarve/rain/thunder_close',
-  'dontstarve/rain/thunder_far',
-})
+Hook('Thunder', { 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far' })
 Hook('Umbralla Dome', 'meta2/voidcloth_umbrella/barrier_lp')
 Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
 
@@ -112,16 +93,10 @@ Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
 Hook('Chorusbox Circuit', 'WX_rework/module/musicmodule_lp')
 Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
-Hook('Pipspook', {
-  'dontstarve/characters/wendy/small_ghost/howl',
-  'dontstarve/characters/wendy/small_ghost/joy',
-})
+Hook('Pipspook', { 'dontstarve/characters/wendy/small_ghost/howl', 'dontstarve/characters/wendy/small_ghost/joy' })
 Hook('Portable Grinding Mill', 'dontstarve/common/together/portable/blender/proximity_LP')
 Hook('Walter', 'dontstarve/characters/walter/talk_LP')
-Hook('Weregoose', {
-  'dontstarve/characters/woodie/goose/flap',
-  'dontstarve/characters/woodie/goose/honk_LP',
-})
+Hook('Weregoose', { 'dontstarve/characters/woodie/goose/flap', 'dontstarve/characters/woodie/goose/honk_LP' })
 Hook("Winona's Catapult", {
   'dontstarve/common/together/catapult/ratchet_LP',
   'dontstarve/common/together/catapult/rock_hit',
@@ -143,11 +118,10 @@ Hook("Winona's Generator & G.E.M.erator", {
 --------------------------------------------------------------------------------
 -- Creatures
 
-Hook('Batilisk', {
-  'dontstarve/creatures/bat/flap',
-  'dontstarve/creatures/bat/sleep',
-  'dontstarve/creatures/bat/taunt',
-})
+Hook(
+  'Batilisk',
+  { 'dontstarve/creatures/bat/flap', 'dontstarve/creatures/bat/sleep', 'dontstarve/creatures/bat/taunt' }
+)
 Hook('Bee', {
   'dontstarve/bee/bee_takeoff',
   'dontstarve/bee/bee_fly_LP',
@@ -206,10 +180,7 @@ Hook('Catcoon', {
   'dontstarve_DLC001/creatures/catcoon/yawn',
   'dontstarve_DLC001/creatures/catcoon/sleep',
 })
-Hook('Chester', {
-  'dontstarve/creatures/chester/pant',
-  'dontstarve/creatures/chester/boing',
-})
+Hook('Chester', { 'dontstarve/creatures/chester/pant', 'dontstarve/creatures/chester/boing' })
 Hook('Dust Moth', 'grotto/creatures/dust_moth/mumble')
 Hook('Frog', {
   'dontstarve/frog/grunt',
@@ -217,10 +188,7 @@ Hook('Frog', {
   'rifts3/mutated_frog/grunt', -- Bright-Eyed Frog / 明眼青蛙
   'rifts3/mutated_frog/walk',
 })
-Hook('Gobbler', {
-  'dontstarve/creatures/perd/gobble',
-  'dontstarve/creatures/perd/sleep',
-})
+Hook('Gobbler', { 'dontstarve/creatures/perd/gobble', 'dontstarve/creatures/perd/sleep' })
 Hook('Grass Gekko', {
   'dontstarve/creatures/together/grass_gekko/tail_off',
   'dontstarve/creatures/together/grass_gekko/tail_regrow',
@@ -260,10 +228,7 @@ Hook('Smallbird', {
   'dontstarve/creatures/smallbird/sleep',
   'dontstarve/creatures/smallbird/wakeup',
 })
-Hook('Smallish Tallbird', {
-  'dontstarve/creatures/teenbird/blink',
-  'dontstarve/creatures/teenbird/chirp',
-})
+Hook('Smallish Tallbird', { 'dontstarve/creatures/teenbird/blink', 'dontstarve/creatures/teenbird/chirp' })
 Hook('Spiders', {
   -- prefabs/spider.lua:SoundPath() and stategraphs/SGspider.lua
   'dontstarve/creatures/spider/scream',
