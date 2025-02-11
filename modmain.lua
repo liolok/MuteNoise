@@ -100,6 +100,7 @@ Hook('Thunder', {
   'dontstarve/rain/thunder_close',
   'dontstarve/rain/thunder_far',
 })
+Hook('Umbralla Dome', 'meta2/voidcloth_umbrella/barrier_lp')
 Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
 
 --------------------------------------------------------------------------------

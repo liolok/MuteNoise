@@ -29,6 +29,7 @@
 [*]Shell Beach Turf
 [*]Sproutrock
 [*]Thunder
+[*]Umbralla Dome
 [*]Worm Hole
 [/list]
 [h3]Character[/h3]

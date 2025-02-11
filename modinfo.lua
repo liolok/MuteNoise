@@ -59,6 +59,7 @@ Config('Season Wave Sound', '季节声浪', '季節聲浪')
 Config('Shell Beach Turf', '贝壳海滩地皮', '貝殼海灘地皮')
 Config('Sproutrock', '萌芽石')
 Config('Thunder', '雷声', '雷聲')
+Config('Umbralla Dome', '暗影伞穹顶', '暗影傘圓頂')
 Config('Worm Hole', '虫洞', '蟲洞')
 
 Header('Character', '角色')
