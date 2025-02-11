@@ -63,6 +63,7 @@
 [*]Gobbler
 [*]Grass Gekko
 [*]Hutch
+[*]Koalefant Snoring
 [*]Mandrake
 [*]Moleworm
 [*]Mosquito

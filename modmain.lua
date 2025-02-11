@@ -200,6 +200,7 @@ Hook('Hutch', {
   'dontstarve/creatures/together/hutch/bounce',
   'dontstarve/creatures/together/hutch/clap',
 })
+Hook('Koalefant Snoring', 'dontstarve/creatures/koalefant/grunt')
 Hook('Mandrake', 'dontstarve/creatures/mandrake/walk')
 Hook('Moleworm', {
   'dontstarve_DLC001/creatures/mole/sleep',
