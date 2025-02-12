@@ -36,6 +36,7 @@
 [list]
 [*]Abigail
 [*]Battle Saddle Music
+[*]Bio Scanalyzer Chirp
 [*]Charged Elding Spear
 [*]Chorusbox Circuit
 [*]Lucy the Axe
