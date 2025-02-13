@@ -78,6 +78,7 @@ Config('Walter', '沃尔特', '沃爾特')
 Config('Weregoose', '鹅人', '鵝人')
 Config("Winona's Catapult", '薇诺娜的投石机', '薇諾娜的投石機')
 Config("Winona's Generator & G.E.M.erator", '薇诺娜的（宝石）发电机', '薇諾娜的（寶石）發電機')
+Config('W.I.N.bot', '薇机人', '薇機人')
 
 Header('Creature', '生物')
 

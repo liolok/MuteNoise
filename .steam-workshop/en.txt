@@ -48,6 +48,7 @@
 [*]Weregoose
 [*]Winona's Catapult
 [*]Winona's Generator & G.E.M.erator
+[*]W.I.N.bot
 [/list]
 [h3]Creature[/h3]
 [list]

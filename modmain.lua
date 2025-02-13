@@ -134,6 +134,14 @@ Hook("Winona's Generator & G.E.M.erator", {
   'meta4/winona_battery/purebrillance_powered',
   'meta4/winona_battery/purebrillance_overloaded_lp',
 })
+Hook('W.I.N.bot', {
+  'meta4/winbot/idle_lp',
+  'meta4/winbot/run_lp',
+  'meta4/winbot/poweron',
+  'meta4/winbot/poweroff',
+  'meta4/winbot/pickup',
+  'meta4/winbot/dropoff',
+})
 
 --------------------------------------------------------------------------------
 -- Creatures
