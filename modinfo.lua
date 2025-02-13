@@ -61,6 +61,7 @@ Config('Sproutrock', '萌芽石')
 Config('Thunder', '雷声', '雷聲')
 Config('Umbralla Dome', '暗影伞穹顶', '暗影傘圓頂')
 Config('Worm Hole', '虫洞', '蟲洞')
+Config('W.O.B.O.T.', '瓦器人')
 
 Header('Character', '角色')
 

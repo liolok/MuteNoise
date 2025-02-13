@@ -83,6 +83,25 @@ Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
 Hook('Thunder', { 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far' })
 Hook('Umbralla Dome', { 'meta2/voidcloth_umbrella/barrier_lp', 'meta2/voidcloth_umbrella/barrier_amb' })
 Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
+Hook('W.O.B.O.T.', {
+  'qol1/collector_robot/pickup',
+  'qol1/collector_robot/dropoff',
+  'qol1/collector_robot/idle_small',
+  'qol1/collector_robot/idle_med',
+  'qol1/collector_robot/idle',
+  'qol1/collector_robot/walk_small',
+  'qol1/collector_robot/walk_med',
+  'qol1/collector_robot/walk',
+  'qol1/collector_robot/neutral_voice_small',
+  'qol1/collector_robot/neutral_voice_med',
+  'qol1/collector_robot/neutral_voice',
+  'qol1/collector_robot/pickup_voice_small',
+  'qol1/collector_robot/pickup_voice_med',
+  'qol1/collector_robot/pickup_voice',
+  'qol1/collector_robot/dropoff_voice_small',
+  'qol1/collector_robot/dropoff_voice_med',
+  'qol1/collector_robot/dropoff_voice',
+})
 
 --------------------------------------------------------------------------------
 -- Characters
