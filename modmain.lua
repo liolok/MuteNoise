@@ -46,6 +46,14 @@ Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
 Hook('Craft Menu', { 'dontstarve/HUD/research_available', 'dontstarve/HUD/recipe_ready' })
+Hook('Daily Fight Music', {
+  'dontstarve/music/music_danger_ruins',
+  'dontstarve/music/music_danger_cave',
+  'dontstarve/music/music_danger', -- autumn
+  'dontstarve/music/music_danger_winter',
+  'dontstarve_DLC001/music/music_danger_spring',
+  'dontstarve_DLC001/music/music_danger_summer',
+})
 Hook('Dock Walk', 'monkeyisland/dock/run_dock')
 Hook('Dwarf Star & Polar Light', { 'dontstarve/common/staff_star_LP', 'dontstarve/common/staff_coldlight_LP' })
 Hook('Fire Consuming Shadow Hand', {

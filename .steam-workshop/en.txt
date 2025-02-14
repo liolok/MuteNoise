@@ -16,6 +16,7 @@
 [*]Bird Trap
 [*]Celestial Orb
 [*]Craft Menu
+[*]Daily Fight Music
 [*]Dock Walk
 [*]Dwarf Star & Polar Light
 [*]Fire Consuming Shadow Hand
