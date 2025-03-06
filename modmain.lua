@@ -116,6 +116,29 @@ Hook('W.O.B.O.T.', {
 
 Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl')
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
+Hook('Bernie', {
+  'dontstarve/creatures/together/bernie/idle',
+  'dontstarve/creatures/together/bernie/taunt',
+  'dontstarve/creatures/together/bernie/hit',
+  'dontstarve/creatures/together/bernie/death',
+  'dontstarve/creatures/together/bernie/sit_up',
+  'dontstarve/creatures/together/bernie/sit_down',
+  'dontstarve/creatures/together/bernie/walk',
+  'dontstarve/creatures/together/bernie_big/vo_atk_pre',
+  'dontstarve/creatures/together/bernie_big/attack_pre',
+  'dontstarve/creatures/together/bernie_big/attack',
+  'dontstarve/creatures/together/bernie_big/vo_atk',
+  'dontstarve/creatures/together/bernie_big/vo_taunt',
+  'dontstarve/creatures/together/bernie_big/taunt',
+  'dontstarve/creatures/together/bernie_big/hit',
+  'dontstarve/creatures/together/bernie_big/footstep',
+  'dontstarve/creatures/together/bernie_big/vo_death_drop',
+  'dontstarve/creatures/together/bernie_big/death',
+  'dontstarve/creatures/together/bernie_big/vo_death_collapse',
+  'dontstarve/creatures/together/bernie_big/activate',
+  'dontstarve/creatures/together/bernie_big/deactivate',
+  'dontstarve/creatures/together/bernie_big/vo_run_start',
+})
 Hook('Bio Scanalyzer Chirp', 'WX_rework/scanner/ping')
 Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
 Hook('Chorusbox Circuit', 'WX_rework/module/musicmodule_lp')

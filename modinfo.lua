@@ -68,6 +68,7 @@ Header('Character', '角色')
 
 Config('Abigail', '阿比盖尔', '阿比蓋爾')
 Config('Battle Saddle Music', '战斗鞍具音乐', '戰鬥鞍具音樂')
+Config('Bernie', '伯尼')
 Config('Bio Scanalyzer Chirp', '生物扫描分析仪鸣叫声', '生物掃描分析儀鳴叫聲')
 Config('Charged Elding Spear', '充能奔雷矛')
 Config('Chorusbox Circuit', '合唱盒电路', '合唱盒電路')

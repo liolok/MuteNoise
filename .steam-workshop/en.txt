@@ -38,6 +38,7 @@
 [list]
 [*]Abigail
 [*]Battle Saddle Music
+[*]Bernie
 [*]Bio Scanalyzer Chirp
 [*]Charged Elding Spear
 [*]Chorusbox Circuit
