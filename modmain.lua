@@ -89,6 +89,11 @@ Hook('Season Wave Sound', {
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
 Hook('Thunder', { 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far' })
+Hook('Tree Growth', {
+  'dontstarve/forest/treeGrowFromWilt',
+  'dontstarve/forest/treeGrow',
+  'dontstarve/forest/treeWilt',
+})
 Hook('Umbralla Dome', { 'meta2/voidcloth_umbrella/barrier_lp', 'meta2/voidcloth_umbrella/barrier_amb' })
 Hook('Worm Hole', 'dontstarve/common/teleportworm/idle')
 Hook('W.O.B.O.T.', {
