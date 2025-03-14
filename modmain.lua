@@ -61,6 +61,10 @@ Hook('Fire Consuming Shadow Hand', {
   'dontstarve/sanity/shadowhand_creep',
   'dontstarve/sanity/shadowhand_retreat',
 })
+Hook('Gloomthorn', {
+  'meta4/ancienttree/nightvision/sway_lp',
+  'meta4/ancienttree/nightvision/sway_lp_nofruit',
+})
 Hook('Insane & Enlightened', {
   'dontstarve/sanity/sanity',
   'dontstarve/sanity/gonecrazy_stinger',
