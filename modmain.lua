@@ -155,7 +155,7 @@ Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
 Hook('Pipspook', { 'dontstarve/characters/wendy/small_ghost/howl', 'dontstarve/characters/wendy/small_ghost/joy' })
 Hook('Portable Grinding Mill', 'dontstarve/common/together/portable/blender/proximity_LP')
-Hook('Walter', 'dontstarve/characters/walter/talk_LP')
+Hook('Walter', { 'dontstarve/characters/walter/talk_LP', 'dontstarve/characters/walter/carol' })
 Hook('Weregoose', { 'dontstarve/characters/woodie/goose/flap', 'dontstarve/characters/woodie/goose/honk_LP' })
 Hook("Winona's Catapult", {
   'dontstarve/common/together/catapult/ratchet_LP',
