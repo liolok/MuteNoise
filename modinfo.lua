@@ -1,6 +1,4 @@
-local function T(en, zh, zht)
-  return ChooseTranslationTable({ en, zh = zh, zht = zht or zh })
-end
+local function T(en, zh, zht) return ChooseTranslationTable({ en, zh = zh, zht = zht or zh }) end
 
 name = T('Mute Noise', '噪声静音', '噪声靜音')
 author = T('方块味的菠萝酱, liolok', '方块味的菠萝酱、李皓奇')
