@@ -1,9 +1,9 @@
 Assets = { Asset('SOUNDPACKAGE', 'sound/silence.fev'), Asset('SOUND', 'sound/silence.fsb') }
 
 local function Hook(config_name, ...)
-  local mute = GetModConfigData(config_name)
+  if not GetModConfigData(config_name) then return end
   for _, event in ipairs({ ... }) do
-    RemapSoundEvent(event, mute and 'silence/second/one' or event) -- replace with 1s of silence or undo
+    RemapSoundEvent(event, 'silence/second/one') -- replace with 1s of silence
   end
 end
 
