@@ -1,4 +1,4 @@
-[b]All options need to be turned on manually to take effect.[/b]
+[b]All sounds are "Unmodified" by default, configure to "Mute" according to personal needs.[/b]
 
 [h2]Compatibility[/h2]
 [h3]Most Annoying[/h3]
