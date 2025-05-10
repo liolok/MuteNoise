@@ -76,6 +76,7 @@
 [*]Mosquito
 [*]Pengull
 [*]Rabbit
+[*]Skittersquid Run
 [*]Smallbird
 [*]Smallish Tallbird
 [*]Spiders

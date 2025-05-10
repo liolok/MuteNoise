@@ -300,6 +300,7 @@ Hook(
   'dontstarve/rabbit/beardscream',
   'dontstarve/rabbit/winterscream'
 )
+Hook('Skittersquid Run', 'hookline/creatures/squid/run')
 Hook(
   'Smallbird',
   'dontstarve/creatures/smallbird/blink',
