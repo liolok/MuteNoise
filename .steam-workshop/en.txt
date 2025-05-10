@@ -81,6 +81,7 @@
 [*]Smallish Tallbird
 [*]Spiders
 [*]Tentacle
+[*]Wobster & Lunar Wobster Swim
 [/list]
 [h3]Equipment[/h3]
 [list]
