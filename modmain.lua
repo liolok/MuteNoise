@@ -87,6 +87,19 @@ Hook(
   'dontstarve/winter/freeze_4th'
 )
 Hook('Polar Bearger Bin', 'rifts3/bearger_sack/open_f5_loopstart', 'rifts3/bearger_sack/close')
+Hook(
+  'Queen of Moon Quay',
+  'monkeyisland/monkeyqueen/receive_item',
+  'monkeyisland/monkeyqueen/happy',
+  'monkeyisland/monkeyqueen/channel_magic_pre',
+  'monkeyisland/monkeyqueen/channel_magic_lp',
+  'monkeyisland/monkeyqueen/remove_curse_success',
+  'monkeyisland/monkeyqueen/remove_curse_fail',
+  'monkeyisland/monkeyqueen/sleep_pre',
+  'monkeyisland/monkeyqueen/sleep_lp',
+  'monkeyisland/monkeyqueen/sleep_post',
+  'monkeyisland/monkeyqueen/unimpressed'
+)
 Hook('Sandstorm', 'dontstarve/common/together/sandstorm')
 Hook(
   'Season Wave Sound',
