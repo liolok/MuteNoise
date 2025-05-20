@@ -137,7 +137,7 @@ Hook(
 --------------------------------------------------------------------------------
 -- Characters
 
-Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl')
+Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl', 'meta5/abigail/gestalt_abigail_idle')
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
 Hook(
   'Bernie',
