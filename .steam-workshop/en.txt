@@ -29,7 +29,9 @@
 [*]Queen of Moon Quay
 [*]Sandstorm
 [*]Season Wave Sound
+[*]Shadow Dimension Storage Space
 [*]Shell Beach Turf
+[*]Spark Ark (Full)
 [*]Sproutrock
 [*]Thunder
 [*]Tree Growth
@@ -97,6 +99,7 @@
 [list]
 [*]Alchemy Engine
 [*]Bee Box
+[*]Brightsmithy
 [*]Florid Postern & Celestial Portal
 [*]Ice Crystaleyezer
 [*]Ice Flingomatic
@@ -104,6 +107,7 @@
 [*]Night Light
 [*]Scaled Furnace
 [*]Shadow Manipulator
+[*]Shadowcraft Plinth
 [*]Tackle Receptacle
 [*]Telelocator Focus
 [*]Terra Firma Tamper

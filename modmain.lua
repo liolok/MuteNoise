@@ -107,7 +107,9 @@ Hook(
   'dontstarve/AMB/waves_winter',
   'dontstarve_DLC001/AMB/waves_summer'
 )
+Hook('Shadow Dimension Storage Space', 'maxwell_rework/shadow_magic/storage_void_LP')
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
+Hook('Spark Ark (Full)', 'grotto/common/archive_security_desk/leave_LP')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
 Hook('Thunder', 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far')
 Hook('Tree Growth', 'dontstarve/forest/treeGrowFromWilt', 'dontstarve/forest/treeGrow', 'dontstarve/forest/treeWilt')
@@ -361,6 +363,7 @@ Hook('Thulecite Suit & W.A.R.B.I.S. Armor', 'dontstarve/movement/foley/metalarmo
 
 Hook('Alchemy Engine', 'dontstarve/common/researchmachine_lvl2_idle_LP')
 Hook('Bee Box', 'dontstarve/bee/bee_box_LP')
+Hook('Brightsmithy', 'rifts/forge/proximity_lp', 'rifts/forge/proximity_pst', 'rifts/forge/use')
 Hook(
   'Florid Postern & Celestial Portal',
   'dontstarve/common/together/spawn_vines/spawnportal_idle_LP',
@@ -386,6 +389,12 @@ Hook(
 Hook('Night Light', 'dontstarve/common/nightlight')
 Hook('Scaled Furnace', 'dontstarve/common/together/dragonfly_furnace/fire_LP')
 Hook('Shadow Manipulator', 'dontstarve/common/researchmachine_lvl3_idle_LP')
+Hook(
+  'Shadowcraft Plinth',
+  'rifts2/shadow_forge/proximity_lp',
+  'rifts2/shadow_forge/proximity_pst',
+  'rifts2/shadow_forge/use'
+)
 Hook('Tackle Receptacle', 'hookline/common/tackle_station/proximity_LP')
 Hook('Telelocator Focus', 'dontstarve/common/telebase_hum')
 Hook('Terra Firma Tamper', 'grotto/common/turf_crafting_station/prox_LP')
