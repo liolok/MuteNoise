@@ -94,6 +94,7 @@
 [*]Morning Star
 [*]Night Armor
 [*]Thulecite Suit & W.A.R.B.I.S. Armor
+[*]Void Robe
 [/list]
 [h3]Structure[/h3]
 [list]

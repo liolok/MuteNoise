@@ -357,6 +357,7 @@ Hook('Krampus Sack', 'dontstarve/movement/foley/krampuspack')
 Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
 Hook('Thulecite Suit & W.A.R.B.I.S. Armor', 'dontstarve/movement/foley/metalarmour')
+Hook('Void Robe', 'dontstarve/movement/foley/shadowcloth_armour')
 
 --------------------------------------------------------------------------------
 -- Structure

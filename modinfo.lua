@@ -127,6 +127,7 @@ Config('Krampus Sack', '坎普斯背包')
 Config('Morning Star', '晨星锤', '晨星錘')
 Config('Night Armor', '暗夜甲（影甲）')
 Config('Thulecite Suit & W.A.R.B.I.S. Armor', '铥矿甲、W.A.R.B.I.S.盔甲', '銩礦甲、W.A.R.B.I.S.盔甲')
+Config('Void Robe', '虚空长袍', '虛空長袍')
 
 Header('Structure', '建筑', '建築物')
 
