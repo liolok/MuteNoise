@@ -140,6 +140,21 @@ Hook(
 -- Characters
 
 Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl', 'meta5/abigail/gestalt_abigail_idle')
+Hook(
+  'Battle Calls', -- prefabs/battlesongdefs.lua
+  -- Battle Song | 战歌
+  'dontstarve_DLC001/characters/wathgrithr/song/durability',
+  'dontstarve_DLC001/characters/wathgrithr/song/healthgain',
+  'dontstarve_DLC001/characters/wathgrithr/song/sanitygain',
+  'dontstarve_DLC001/characters/wathgrithr/song/sanityaura',
+  'dontstarve_DLC001/characters/wathgrithr/song/fireresistance',
+  'dontstarve_DLC001/characters/wathgrithr/song/lunar',
+  'dontstarve_DLC001/characters/wathgrithr/song/shadow',
+  -- Battle Stinger | 战吼
+  'dontstarve_DLC001/characters/wathgrithr/quote/taunt',
+  'dontstarve_DLC001/characters/wathgrithr/quote/dropattack',
+  'dontstarve_DLC001/characters/wathgrithr/song/revive'
+)
 Hook('Battle Saddle Music', 'dontstarve/music/music_wigfrid_valkyrie')
 Hook(
   'Bernie',
@@ -185,6 +200,7 @@ Hook(
   'meta4/winona_catapult/lunar_shadow_combo_explode',
   'meta4/winona_catapult/lunar_shadow_combo_hit'
 )
+Hook('Wigfrid Hurt', 'dontstarve/characters/wigfrid/hurt')
 Hook(
   "Winona's Generator & G.E.M.erator",
   'dontstarve/common/together/battery/on_LP',

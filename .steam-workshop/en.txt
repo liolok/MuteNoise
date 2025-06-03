@@ -42,6 +42,7 @@
 [h3]Character[/h3]
 [list]
 [*]Abigail
+[*]Battle Calls
 [*]Battle Saddle Music
 [*]Bernie
 [*]Bio Scanalyzer Chirp
@@ -53,6 +54,7 @@
 [*]Portable Grinding Mill
 [*]Walter
 [*]Weregoose
+[*]Wigfrid Hurt
 [*]Winona's Catapult
 [*]Winona's Generator & G.E.M.erator
 [*]W.I.N.bot
