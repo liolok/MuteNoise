@@ -258,8 +258,11 @@ Hook(
   'turnoftides/birds/takeoff_puffin',
   'moonstorm/creatures/mutated_robin/chirp', -- Misshapen Bird / 奇形鸟
   'moonstorm/creatures/mutated_robin/take_off',
+  'moonstorm/creatures/mutated_robin/attack',
+  'moonstorm/creatures/mutated_robin/bile_shoot_spin_pre',
   'moonstorm/creatures/mutated_crow/chirp', -- Moonblind Crow / 月盲乌鸦
-  'moonstorm/creatures/mutated_crow/take_off'
+  'moonstorm/creatures/mutated_crow/take_off',
+  'moonstorm/creatures/mutated_crow/attack'
 )
 Hook('Bulbous Lightbug', 'grotto/creatures/light_bug/fly_LP')
 Hook('Buzzard', 'dontstarve_DLC001/creatures/buzzard/hurt')
