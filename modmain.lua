@@ -335,6 +335,11 @@ Hook(
   'dontstarve/rabbit/beardscream',
   'dontstarve/rabbit/winterscream'
 )
+Hook(
+  'Saladmander Duel',
+  'turnoftides/creatures/together/fruit_dragon/challenge_pre',
+  'turnoftides/creatures/together/fruit_dragon/challenge'
+)
 Hook('Skittersquid Run', 'hookline/creatures/squid/run')
 Hook(
   'Smallbird',

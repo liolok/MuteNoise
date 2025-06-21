@@ -82,6 +82,7 @@
 [*]Mosquito
 [*]Pengull
 [*]Rabbit
+[*]Saladmander Duel
 [*]Skittersquid Run
 [*]Smallbird
 [*]Smallish Tallbird
