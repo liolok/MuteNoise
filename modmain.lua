@@ -290,6 +290,7 @@ Hook(
   'dontstarve_DLC001/creatures/catcoon/sleep'
 )
 Hook('Chester', 'dontstarve/creatures/chester/pant', 'dontstarve/creatures/chester/boing')
+Hook('Crustashine', 'monkeyisland/lightcrab/walk', 'monkeyisland/lightcrab/run')
 Hook('Dust Moth', 'grotto/creatures/dust_moth/mumble')
 Hook(
   'Frog',

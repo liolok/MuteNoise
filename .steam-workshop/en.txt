@@ -70,6 +70,7 @@
 [*]Carrat
 [*]Catcoon
 [*]Chester
+[*]Crustashine
 [*]Dust Moth
 [*]Frog
 [*]Gobbler
