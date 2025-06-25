@@ -73,6 +73,7 @@
 [*]Crustashine
 [*]Dust Moth
 [*]Frog
+[*]Ghost & Bigspook
 [*]Gobbler
 [*]Grass Gekko
 [*]Hutch

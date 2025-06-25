@@ -299,6 +299,7 @@ Hook(
   'rifts3/mutated_frog/grunt', -- Bright-Eyed Frog / 明眼青蛙
   'rifts3/mutated_frog/walk'
 )
+Hook('Ghost & Bigspook', 'dontstarve/ghost/ghost_howl_LP', 'dontstarve/ghost/ghost_howl')
 Hook('Gobbler', 'dontstarve/creatures/perd/gobble', 'dontstarve/creatures/perd/sleep')
 Hook(
   'Grass Gekko',
