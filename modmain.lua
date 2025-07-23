@@ -310,6 +310,18 @@ Hook(
   'dontstarve/creatures/together/grass_gekko/sleep'
 )
 Hook(
+  'Hound',
+  'dontstarve/creatures/hound/pant',
+  'dontstarve/creatures/hound/attack',
+  'dontstarve/creatures/hound/bite',
+  'dontstarve/creatures/hound/bark',
+  'dontstarve/creatures/hound/death',
+  'dontstarve/creatures/hound/sleep',
+  'dontstarve/creatures/hound/growl',
+  'dontstarve/creatures/hound/hurt',
+  'rifts3/chewing/hounds'
+)
+Hook(
   'Hutch',
   'dontstarve/creatures/together/hutch/pant',
   'dontstarve/creatures/together/hutch/bounce',
