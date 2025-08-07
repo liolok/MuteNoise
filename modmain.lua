@@ -36,8 +36,7 @@ Hook(
   'dontstarve/creatures/together/rooster/distress', -- critter_perdling skin: Rooslet / 公鸡
   'dontstarve/creatures/together/rooster/distress_long',
   'turnoftides/creatures/together/lunarmothling/distress', -- critter_lunarmothling / Mothling / 小蛾子
-  'terraria1/mini_eyeofterror/distress', -- critter_eyeofterror / Friendly Peeper / 友好窥视者
-  'dontstarve/characters/walter/woby/small/bark' -- wobysmall / Woby / 沃比
+  'terraria1/mini_eyeofterror/distress' -- critter_eyeofterror / Friendly Peeper / 友好窥视者
 )
 Hook('Sawhorse', 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_pst', 'rifts3/sawhorse/use')
 
@@ -225,6 +224,7 @@ Hook(
   'meta4/winbot/pickup',
   'meta4/winbot/dropoff'
 )
+Hook('Woby', 'dontstarve/characters/walter/woby/big/bark', 'dontstarve/characters/walter/woby/small/bark')
 
 --------------------------------------------------------------------------------
 -- Creatures

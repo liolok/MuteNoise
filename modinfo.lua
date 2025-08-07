@@ -93,6 +93,7 @@ Config('Wigfrid Hurt', '薇格弗德受伤', '薇格弗德受傷')
 Config("Winona's Catapult", '薇诺娜的投石机', '薇諾娜的投石機')
 Config("Winona's Generator & G.E.M.erator", '薇诺娜的（宝石）发电机', '薇諾娜的（寶石）發電機')
 Config('W.I.N.bot', '薇机人', '薇機人')
+Config('Woby', '沃比')
 
 Header('Creature', '生物')
 
