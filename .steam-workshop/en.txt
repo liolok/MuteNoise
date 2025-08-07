@@ -32,6 +32,7 @@
 [*]Season Wave Sound
 [*]Shadow Dimension Storage Space
 [*]Shell Beach Turf
+[*]Shell Bell
 [*]Spark Ark (Full)
 [*]Sproutrock
 [*]Thunder

@@ -110,6 +110,12 @@ Hook(
 )
 Hook('Shadow Dimension Storage Space', 'maxwell_rework/shadow_magic/storage_void_LP')
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
+Hook(
+  'Shell Bell',
+  'hookline_2/common/shells/sea_sound_1_LP',
+  'hookline_2/common/shells/sea_sound_2_LP',
+  'hookline_2/common/shells/sea_sound_3_LP'
+)
 Hook('Spark Ark (Full)', 'grotto/common/archive_security_desk/leave_LP')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
 Hook('Thunder', 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far')
