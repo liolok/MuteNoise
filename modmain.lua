@@ -298,6 +298,7 @@ Hook(
 )
 Hook('Chester', 'dontstarve/creatures/chester/pant', 'dontstarve/creatures/chester/boing')
 Hook('Crustashine', 'monkeyisland/lightcrab/walk', 'monkeyisland/lightcrab/run')
+Hook('Deadly Brightshade Retaliation', 'rifts/lunarthrall/attack')
 Hook('Dust Moth', 'grotto/creatures/dust_moth/mumble')
 Hook(
   'Frog',
