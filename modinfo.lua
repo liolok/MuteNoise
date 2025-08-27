@@ -3,7 +3,7 @@ local function T(en, zh, zht) return ChooseTranslationTable({ en, zh = zh, zht =
 name = T('Mute Noise', '噪声静音', '噪声靜音')
 author = T('方块味的菠萝酱, liolok', '方块味的菠萝酱、李皓奇')
 local date = '2025-08-27'
-version = date .. '' -- for revision in same day
+version = date .. '-1' -- for revision in same day
 description = T(
   'All sounds are "Unmodified" by default, configure to "Mute" according to personal needs.',
   '所有声音默认「不作修改」，请按个人需求配置为「静音」。',
