@@ -87,6 +87,7 @@
 [*]Mandrake
 [*]Moleworm
 [*]Mosquito
+[*]Mothling
 [*]Pengull
 [*]Rabbit
 [*]Saladmander Duel

@@ -361,6 +361,28 @@ Hook(
   'dontstarve_DLC001/creatures/mole/move'
 )
 Hook('Mosquito', 'dontstarve/creatures/mosquito/mosquito_fly_LP')
+Hook(
+  'Mothling',
+  'turnoftides/creatures/together/lunarmothling/emote1',
+  'turnoftides/creatures/together/lunarmothling/emote2',
+  'turnoftides/creatures/together/lunarmothling/emote_nuzzle',
+  'turnoftides/creatures/together/lunarmothling/idle',
+  'turnoftides/creatures/together/lunarmothling/flap_fast',
+  'turnoftides/creatures/together/lunarmothling/emote_cute',
+  'turnoftides/creatures/together/lunarmothling/emote_combat',
+  'turnoftides/creatures/together/lunarmothling/interact_active',
+  'turnoftides/creatures/together/lunarmothling/interact_passive',
+  'turnoftides/creatures/together/lunarmothling/vo_cute',
+  'turnoftides/creatures/together/lunarmothling/eat_pre',
+  'turnoftides/creatures/together/lunarmothling/eat_LP',
+  'turnoftides/creatures/together/lunarmothling/distress',
+  'turnoftides/creatures/together/lunarmothling/walk',
+  'turnoftides/creatures/together/lunarmothling/emote_pet',
+  'turnoftides/creatures/together/lunarmothling/sleep_pre',
+  'turnoftides/creatures/together/lunarmothling/sleep_in',
+  'turnoftides/creatures/together/lunarmothling/sleep_out',
+  'turnoftides/creatures/together/lunarmothling/sleep_pst'
+)
 Hook('Pengull', 'dontstarve/creatures/pengull/idle')
 Hook(
   'Rabbit',
