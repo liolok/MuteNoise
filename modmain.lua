@@ -100,6 +100,7 @@ Hook(
   'monkeyisland/monkeyqueen/sleep_post',
   'monkeyisland/monkeyqueen/unimpressed'
 )
+Hook('Restrained Static', 'moonstorm/common/static_ball_contained/finished_idle_LP')
 Hook('Sandstorm', 'dontstarve/common/together/sandstorm')
 Hook(
   'Season Wave Sound',

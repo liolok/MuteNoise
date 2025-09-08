@@ -28,6 +28,7 @@
 [*]Overheating & Freezing
 [*]Polar Bearger Bin
 [*]Queen of Moon Quay
+[*]Restrained Static
 [*]Sandstorm
 [*]Season Wave Sound
 [*]Shadow Dimension Storage Space
