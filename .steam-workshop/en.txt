@@ -115,6 +115,7 @@
 [*]Bee Box
 [*]Brightsmithy
 [*]Florid Postern & Celestial Portal
+[*]Ice Box
 [*]Ice Crystaleyezer
 [*]Ice Flingomatic
 [*]Moon Dial

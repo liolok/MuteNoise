@@ -454,6 +454,7 @@ Hook(
   'dontstarve/common/together/spawn_vines/spawnportal_blink',
   'dontstarve/common/together/spawn_vines/vines'
 )
+Hook('Ice Box', 'dontstarve/common/icebox_open', 'dontstarve/common/icebox_close', 'dontstarve/common/ice_box_LP')
 Hook('Ice Crystaleyezer', 'rifts3/oculus_ice_radius/ambient_lp')
 Hook(
   'Ice Flingomatic',
