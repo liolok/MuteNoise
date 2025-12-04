@@ -103,6 +103,7 @@
 [list]
 [*]Bone Armor
 [*]Brightshade Armor
+[*]Dreadstone Armor
 [*]Krampus Sack
 [*]Morning Star
 [*]Night Armor

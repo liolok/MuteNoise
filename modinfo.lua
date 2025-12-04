@@ -136,6 +136,7 @@ Header('Equipment', '装备', '裝備')
 
 Config('Bone Armor', '骨头盔甲（骨甲）', '骨頭盔甲（骨甲）')
 Config('Brightshade Armor', '亮茄盔甲')
+Config('Dreadstone Armor', '绝望石盔甲', '絕望石盔甲')
 Config('Krampus Sack', '坎普斯背包')
 Config('Morning Star', '晨星锤', '晨星錘')
 Config('Night Armor', '暗夜甲（影甲）')

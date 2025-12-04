@@ -435,6 +435,7 @@ Hook('Wobster & Lunar Wobster Swim', 'hookline_2/creatures/wobster/step')
 
 Hook('Bone Armor', 'dontstarve/movement/foley/bone')
 Hook('Brightshade Armor', 'dontstarve/movement/foley/lunarplantarmour_foley')
+Hook('Dreadstone Armor', 'dontstarve/movement/foley/dreadstonearmour')
 Hook('Krampus Sack', 'dontstarve/movement/foley/krampuspack')
 Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
