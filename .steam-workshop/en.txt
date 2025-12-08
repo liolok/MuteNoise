@@ -107,6 +107,7 @@
 [*]Krampus Sack
 [*]Morning Star
 [*]Night Armor
+[*]Shadow Maul
 [*]Shadow Reaper
 [*]Thulecite Suit & W.A.R.B.I.S. Armor
 [*]Void Robe

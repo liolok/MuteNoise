@@ -439,6 +439,19 @@ Hook('Dreadstone Armor', 'dontstarve/movement/foley/dreadstonearmour')
 Hook('Krampus Sack', 'dontstarve/movement/foley/krampuspack')
 Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
+Hook(
+  'Shadow Maul',
+  'rifts4/nightmare_axe/lvl1_talk_LP',
+  'rifts4/nightmare_axe/lvl2_talk_LP',
+  'rifts4/nightmare_axe/lvl3_talk_LP',
+  'rifts4/nightmare_axe/lvl4_talk_LP',
+  'rifts4/nightmare_axe/lvl1_idle',
+  'rifts4/nightmare_axe/lvl2_idle',
+  'rifts4/nightmare_axe/lvl3_idle',
+  'rifts4/nightmare_axe/lvl4_idle',
+  'rifts4/nightmare_axe/levelup',
+  'rifts4/nightmare_axe/chop'
+)
 Hook('Shadow Reaper', 'rifts2/thrall_generic/vocalization_small', 'rifts2/thrall_generic/vocalization_big')
 Hook('Thulecite Suit & W.A.R.B.I.S. Armor', 'dontstarve/movement/foley/metalarmour')
 Hook('Void Robe', 'dontstarve/movement/foley/shadowcloth_armour')
