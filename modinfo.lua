@@ -108,6 +108,13 @@ Config('Buzzard', '秃鹫', '禿鷲')
 Config('Carrat', '胡萝卜鼠', '胡蘿蔔鼠')
 Config('Catcoon', '浣猫', '浣貓')
 Config('Chester', '切斯特', '賈斯特')
+Config('Clockwork (and Damaged) Bishop', '（损坏的）发条主教', '（損壞的）發條主教')
+Config(
+  'Clockwork (and Damaged and Gilded) Knight',
+  '（损坏的）发条骑士、镀金骑士',
+  '（損壞的）發條騎士、鍍金騎士'
+)
+Config('Clockwork (and Damaged) Rook', '（损坏的）发条战车', '（損壞的）發條戰車')
 Config('Crustashine', '发光蟹', '發光蟹')
 Config('Deadly Brightshade', '致命亮茄')
 Config('Dust Moth', '尘蛾', '塵蛾')

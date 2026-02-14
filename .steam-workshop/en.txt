@@ -75,6 +75,9 @@
 [*]Carrat
 [*]Catcoon
 [*]Chester
+[*]Clockwork (and Damaged) Bishop
+[*]Clockwork (and Damaged and Gilded) Knight
+[*]Clockwork (and Damaged) Rook
 [*]Crustashine
 [*]Deadly Brightshade
 [*]Dust Moth
