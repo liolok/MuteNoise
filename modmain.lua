@@ -404,7 +404,7 @@ Hook(
   'rifts3/mutated_frog/walk'
 )
 Hook('Ghost & Bigspook', 'dontstarve/ghost/ghost_howl_LP', 'dontstarve/ghost/ghost_howl')
-Hook('Gobbler', 'dontstarve/creatures/perd/gobble', 'dontstarve/creatures/perd/sleep')
+Hook('Gobbler', 'dontstarve/creatures/perd/gobble', 'dontstarve/creatures/perd/run', 'dontstarve/creatures/perd/sleep')
 Hook(
   'Grass Gekko',
   'dontstarve/creatures/together/grass_gekko/tail_off',
