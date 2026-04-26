@@ -36,7 +36,8 @@ Hook(
   'dontstarve/creatures/together/rooster/distress', -- critter_perdling skin: Rooslet / 公鸡
   'dontstarve/creatures/together/rooster/distress_long',
   'turnoftides/creatures/together/lunarmothling/distress', -- critter_lunarmothling / Mothling / 小蛾子
-  'terraria1/mini_eyeofterror/distress' -- critter_eyeofterror / Friendly Peeper / 友好窥视者
+  'terraria1/mini_eyeofterror/distress', -- critter_eyeofterror / Friendly Peeper / 友好窥视者
+  'dontstarve/creatures/together/bulbin/yell' -- critter_bulbin / Bulbin / 芽葱
 )
 Hook('Sawhorse', 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_pst', 'rifts3/sawhorse/use')
 
