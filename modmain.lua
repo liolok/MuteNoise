@@ -46,6 +46,7 @@ Hook('Sawhorse', 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_p
 
 Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
+Hook('B.U.D.D.Y.', 'dontstarve/music/w_radio')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
 Hook('Craft Menu', 'dontstarve/HUD/research_available', 'dontstarve/HUD/recipe_ready')
 Hook(

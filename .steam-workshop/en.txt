@@ -14,6 +14,7 @@
 [list]
 [*]Astral Detector
 [*]Bird Trap
+[*]B.U.D.D.Y.
 [*]Celestial Orb
 [*]Craft Menu
 [*]Daily Fight Music
