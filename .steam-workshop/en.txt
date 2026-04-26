@@ -60,6 +60,7 @@
 [*]Time Pieces
 [*]Walter
 [*]Weregoose
+[*]Wendy Hurt
 [*]Wigfrid Hurt
 [*]Winona's Catapult
 [*]Winona's Generator & G.E.M.erator

@@ -214,6 +214,7 @@ Hook(
   'meta4/winona_catapult/lunar_shadow_combo_explode',
   'meta4/winona_catapult/lunar_shadow_combo_hit'
 )
+Hook('Wendy Hurt', 'dontstarve/characters/wendy/hurt')
 Hook('Wigfrid Hurt', 'dontstarve/characters/wigfrid/hurt')
 Hook(
   "Winona's Generator & G.E.M.erator",
