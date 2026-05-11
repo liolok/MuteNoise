@@ -191,7 +191,7 @@ Hook(
 )
 Hook('Bio Scanalyzer Chirp', 'WX_rework/scanner/ping')
 Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
-Hook('Chorusbox Circuit', 'WX_rework/module/musicmodule_lp')
+Hook('Chorusbox Circuit', 'WX_rework/module_tray/musicmodule_lp')
 Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
 Hook('Pipspook', 'dontstarve/characters/wendy/small_ghost/howl', 'dontstarve/characters/wendy/small_ghost/joy')
