@@ -430,8 +430,8 @@ Hook(
 Hook(
   'Hutch',
   'dontstarve/creatures/together/hutch/pant',
-  'dontstarve/creatures/together/hutch/bounce',
-  'dontstarve/creatures/together/hutch/clap'
+  'dontstarve/creatures/together/hutch/land_hit',
+  'dontstarve/creatures/together/hutch/one_man_band'
 )
 Hook('Koalefant Snoring', 'dontstarve/creatures/koalefant/grunt')
 Hook('Mandrake', 'dontstarve/creatures/mandrake/walk')
