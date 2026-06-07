@@ -45,6 +45,26 @@ Hook('Sawhorse', 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_p
 -- Ambience
 
 Hook('Astral Detector', 'grotto/common/archive_resonator/idle_LP')
+Hook(
+  'Balatro',
+  -- scripts/prefabs/balatro_machine.lua
+  'balatro/balatro_cabinet/cards_deal',
+  'balatro/balatro_cabinet/cards_flip',
+  'balatro/balatro_cabinet/discard',
+  -- scripts/prefabs/balatro_util.lua
+  'balatro/balatro_cabinet/light_blink_LP',
+  -- scripts/stategraphs/SGbalatro_machine.lua
+  'balatro/balatro_cabinet/jimbo_talk_3D_SFX',
+  -- scripts/widgets/redux/balatrowidget.lua
+  'balatro/balatro_cabinet/cards_deal_HUD',
+  'balatro/balatro_cabinet/cards_flip_HUD',
+  'balatro/balatro_cabinet/mult_HUD',
+  'balatro/balatro_cabinet/chips_LP_HUD',
+  'balatro/balatro_cabinet/discard_HUD',
+  'balatro/balatro_cabinet/jingle',
+  'balatro/balatro_cabinet/confetti',
+  'balatro/balatro_cabinet/jimbo_talk_2D_HUD'
+)
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
 Hook('B.U.D.D.Y.', 'dontstarve/music/w_radio')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')

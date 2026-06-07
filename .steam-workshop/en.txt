@@ -13,6 +13,7 @@
 [h3]Ambience[/h3]
 [list]
 [*]Astral Detector
+[*]Balatro
 [*]Bird Trap
 [*]B.U.D.D.Y.
 [*]Celestial Orb

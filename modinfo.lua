@@ -46,6 +46,7 @@ Config('Sawhorse', '锯马', '鋸馬')
 Header('Ambience', '环境', '環境')
 
 Config('Astral Detector', '星象探测仪', '星象探測儀')
+Config('Balatro', '小丑牌')
 Config('Bird Trap', '捕鸟陷阱', '捕鳥陷阱')
 Config('B.U.D.D.Y.', 'B.U.D.D.Y.')
 Config('Celestial Orb', '天体宝球', '天體寶球')
