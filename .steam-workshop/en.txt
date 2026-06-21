@@ -110,6 +110,7 @@
 [*]Bone Armor
 [*]Brightshade Armor
 [*]Dreadstone Armor
+[*]Glossamer Saddle
 [*]Krampus Sack
 [*]Morning Star
 [*]Night Armor
