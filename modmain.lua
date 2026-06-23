@@ -169,6 +169,7 @@ Hook(
 -- Characters
 
 Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl', 'meta5/abigail/gestalt_abigail_idle')
+Hook('Auto-Grabber Movement', 'WX_rework/harvester/movement')
 Hook(
   'Battle Calls', -- prefabs/battlesongdefs.lua
   -- Battle Song | 战歌
@@ -212,6 +213,7 @@ Hook(
 Hook('Bio Scanalyzer Chirp', 'WX_rework/scanner/ping')
 Hook('Charged Elding Spear', 'meta3/wigfrid/spear_wathrithr_lightning_charged')
 Hook('Chorusbox Circuit', 'WX_rework/module_tray/musicmodule_lp')
+Hook('Exploiterator Scanning', 'WX_rework/shadowdebuffer/scanning_LP')
 Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
 Hook('Pipspook', 'dontstarve/characters/wendy/small_ghost/howl', 'dontstarve/characters/wendy/small_ghost/joy')
@@ -222,6 +224,7 @@ Hook(
   'wanda2/characters/wanda/watch/pocketwatch_parts/idle1_LP'
 )
 Hook('Walter', 'dontstarve/characters/walter/talk_LP', 'dontstarve/characters/walter/carol')
+Hook('Warbler/Zaptrocuter/Roto-Mapper', 'rifts5/wagdrone_flying/idle', 'rifts5/wagdrone_flying/walk_lp')
 Hook('Weregoose', 'dontstarve/characters/woodie/goose/flap', 'dontstarve/characters/woodie/goose/honk_LP')
 Hook(
   "Winona's Catapult",

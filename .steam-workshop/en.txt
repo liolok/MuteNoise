@@ -48,18 +48,21 @@
 [h3]Character[/h3]
 [list]
 [*]Abigail
+[*]Auto-Grabber Movement
 [*]Battle Calls
 [*]Battle Saddle Music
 [*]Bernie
 [*]Bio Scanalyzer Chirp
 [*]Charged Elding Spear
 [*]Chorusbox Circuit
+[*]Exploiterator Scanning
 [*]Lucy the Axe
 [*]Mourning Glory
 [*]Pipspook
 [*]Portable Grinding Mill
 [*]Time Pieces
 [*]Walter
+[*]Warbler/Zaptrocuter/Roto-Mapper
 [*]Weregoose
 [*]Wendy Hurt
 [*]Wigfrid Hurt
