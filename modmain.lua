@@ -37,7 +37,8 @@ Hook(
   'dontstarve/creatures/together/rooster/distress_long',
   'turnoftides/creatures/together/lunarmothling/distress', -- critter_lunarmothling / Mothling / 小蛾子
   'terraria1/mini_eyeofterror/distress', -- critter_eyeofterror / Friendly Peeper / 友好窥视者
-  'dontstarve/creatures/together/bulbin/yell' -- critter_bulbin / Bulbin / 芽葱
+  'dontstarve/creatures/together/bulbin/yell', -- critter_bulbin / Bulbin / 芽葱
+  'dontstarve/creatures/together/eets/hungry' -- critter_eets / Eets / 一吃
 )
 Hook('Sawhorse', 'rifts3/sawhorse/proximity_lp', 'rifts3/sawhorse/proximity_lp_pst', 'rifts3/sawhorse/use')
 
