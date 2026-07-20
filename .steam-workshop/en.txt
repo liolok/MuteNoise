@@ -141,6 +141,7 @@
 [*]Telelocator Focus
 [*]Terra Firma Tamper
 [*]Think Tank
+[*]Wall Destroyed
 [/list]
 
 [h2]Credits[/h2]

@@ -613,3 +613,9 @@ Hook('Tackle Receptacle', 'hookline/common/tackle_station/proximity_LP')
 Hook('Telelocator Focus', 'dontstarve/common/telebase_hum')
 Hook('Terra Firma Tamper', 'grotto/common/turf_crafting_station/prox_LP')
 Hook('Think Tank', 'turnoftides/common/together/seafaring_prototyper/LP')
+Hook(
+  'Wall Destroyed',
+  'dontstarve/common/destroy_stone',
+  'dontstarve/common/destroy_straw',
+  'dontstarve/common/destroy_wood'
+)
