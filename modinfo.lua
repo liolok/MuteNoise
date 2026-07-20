@@ -1,14 +1,13 @@
 local function T(en, zh, zht) return ChooseTranslationTable({ en, zh = zh, zht = zht or zh }) end
 
-name = T('Mute Noise', '噪声静音', '噪声靜音')
+name = T('Mute Noise', '噪声静音', '噪聲靜音')
 author = T('方块味的菠萝酱, liolok', '方块味的菠萝酱、李皓奇')
-local date = '2026-07-04'
-version = date .. '' -- for revision in same day
+version = 'VERSION_PLACEHOLDER'
 description = T(
   'All sounds are "Unmodified" by default, configure to "Mute" according to personal needs.',
   '所有声音默认「不作修改」，请按个人需求配置为「静音」。',
   '所有聲音預設「不作修改」，請依個人需求配置為「靜音」。'
-) .. '\n󰀰 ' .. T('Last updated at: ', '最后更新于：') .. date -- Florid Postern（绚丽之门）
+) .. '\n󰀰 ' .. T('Version: ', '版本：') .. version -- Florid Postern（绚丽之门）
 api_version = 10
 priority = -1 -- load later to over-remap sound events
 dst_compatible = true
