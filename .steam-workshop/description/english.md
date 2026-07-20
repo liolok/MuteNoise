@@ -107,6 +107,7 @@
 - Smallish Tallbird
 - Spiders
 - Tentacle
+- Void Masque / Herald of Tenebrau
 - Volt Goat Shocked
 - Wobster & Lunar Wobster Swim
 

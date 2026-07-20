@@ -538,6 +538,12 @@ Hook(
 )
 Hook('Tentacle', 'dontstarve/tentacle/tentacle_rumble_LP')
 Hook(
+  'Void Masque / Herald of Tenebrau',
+  'hallowednights2024/thrall_parasite/vocalization',
+  'hallowednights2024/thrall_parasite/thrall_idle_LP',
+  'hallowednights2024/thrall_parasite/possess_kill_monster'
+)
+Hook(
   'Volt Goat Shocked',
   'dontstarve_DLC001/creatures/lightninggoat/shocked_electric',
   'dontstarve_DLC001/creatures/lightninggoat/shocked_bleet'

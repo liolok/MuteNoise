@@ -142,6 +142,7 @@ Config('Smallbird', '幼年高脚鸟', '幼年高腳鳥')
 Config('Smallish Tallbird', '青年高脚鸟', '青年高腳鳥')
 Config('Spiders', '蜘蛛类', '蜘蛛類')
 Config('Tentacle', '触手', '觸手')
+Config('Void Masque / Herald of Tenebrau', '虚空面具/暗域先驱', '虛空面具/暗域先驅')
 Config('Volt Goat Shocked', '伏特羊触电', '伏特羊觸電')
 Config('Wobster & Lunar Wobster Swim', '龙虾、月光龙虾游动', '龍蝦、月光龍蝦遊動')
 
