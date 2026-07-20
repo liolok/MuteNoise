@@ -537,6 +537,11 @@ Hook(
   'waterlogged1/creatures/spider_water/walk_water'
 )
 Hook('Tentacle', 'dontstarve/tentacle/tentacle_rumble_LP')
+Hook(
+  'Volt Goat Shocked',
+  'dontstarve_DLC001/creatures/lightninggoat/shocked_electric',
+  'dontstarve_DLC001/creatures/lightninggoat/shocked_bleet'
+)
 Hook('Wobster & Lunar Wobster Swim', 'hookline_2/creatures/wobster/step')
 
 --------------------------------------------------------------------------------
