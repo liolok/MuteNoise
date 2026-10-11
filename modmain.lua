@@ -224,6 +224,7 @@ Hook('Exploiterator Scanning', 'WX_rework/shadowdebuffer/scanning_LP')
 Hook('Lucy the Axe', 'dontstarve/characters/woodie/lucytalk_LP')
 Hook('Mourning Glory', 'dontstarve/characters/wendy/small_ghost/wisp')
 Hook('Pipspook', 'dontstarve/characters/wendy/small_ghost/howl', 'dontstarve/characters/wendy/small_ghost/joy')
+Hook('Sisturn Sanity Aura', 'meta5/wendy/sisturn_sanity_buff', 'meta5/wendy/sisturn_sanity_buff_pst')
 Hook('Portable Grinding Mill', 'dontstarve/common/together/portable/blender/proximity_LP')
 Hook(
   'Time Pieces',

@@ -63,6 +63,7 @@
 - Mourning Glory
 - Pipspook
 - Portable Grinding Mill
+- Sisturn Sanity Aura
 - Time Pieces
 - Walter
 - Warbler/Zaptrocuter/Roto-Mapper
