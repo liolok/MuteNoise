@@ -16,6 +16,7 @@
 - Astral Detector
 - Balatro
 - Bird Trap
+- Boat Leak
 - B.U.D.D.Y.
 - Celestial Orb
 - Craft Menu

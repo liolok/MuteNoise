@@ -67,6 +67,11 @@ Hook(
   'balatro/balatro_cabinet/jimbo_talk_2D_HUD'
 )
 Hook('Bird Trap', 'dontstarve/common/birdtrap_rustle')
+Hook(
+  'Boat Leak',
+  'turnoftides/common/together/boat/fountain_small_LP',
+  'turnoftides/common/together/boat/fountain_medium_LP'
+)
 Hook('B.U.D.D.Y.', 'dontstarve/music/w_radio')
 Hook('Celestial Orb', 'dontstarve/common/together/celestial_orb/idle_LP')
 Hook('Craft Menu', 'dontstarve/HUD/research_available', 'dontstarve/HUD/recipe_ready')
