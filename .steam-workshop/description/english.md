@@ -24,6 +24,7 @@
 - Dwarf Star & Polar Light
 - Fire Consuming Shadow Hand
 - Freeze & Thaw
+- Giant Whirlpool
 - Gloomthorn
 - Insane & Enlightened
 - Midsummer Cawnival

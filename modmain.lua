@@ -88,6 +88,7 @@ Hook(
   'dontstarve/sanity/shadowhand_retreat'
 )
 Hook('Freeze & Thaw', 'dontstarve/common/freezecreature', 'dontstarve/common/freezethaw')
+Hook('Giant Whirlpool', 'rifts6/whirlpool/whirlpool_LP')
 Hook('Gloomthorn', 'meta4/ancienttree/nightvision/sway_lp', 'meta4/ancienttree/nightvision/sway_lp_nofruit')
 Hook(
   'Insane & Enlightened',
