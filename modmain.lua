@@ -240,6 +240,7 @@ Hook(
 )
 Hook('Wendy Hurt', 'dontstarve/characters/wendy/hurt')
 Hook('Wigfrid Hurt', 'dontstarve/characters/wigfrid/hurt')
+Hook('Wigfrid Talk', 'dontstarve/characters/wigfrid/talk_LP')
 Hook(
   "Winona's Generator & G.E.M.erator",
   'dontstarve/common/together/battery/on_LP',

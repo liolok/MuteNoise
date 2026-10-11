@@ -67,6 +67,7 @@
 - Weregoose
 - Wendy Hurt
 - Wigfrid Hurt
+- Wigfrid Talk
 - Winona's Catapult
 - Winona's Generator & G.E.M.erator
 - W.I.N.bot
