@@ -568,6 +568,7 @@ Hook('Glossamer Saddle', 'dontstarve/beefalo/saddle/race_foley')
 Hook('Krampus Sack', 'dontstarve/movement/foley/krampuspack')
 Hook('Morning Star', 'dontstarve_DLC001/common/morningstar')
 Hook('Night Armor', 'dontstarve/movement/foley/nightarmour')
+Hook('One-man Band', 'dontstarve/wilson/onemanband')
 Hook(
   'Shadow Maul',
   'rifts4/nightmare_axe/lvl1_talk_LP',

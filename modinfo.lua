@@ -159,6 +159,7 @@ Config('Glossamer Saddle', '闪亮鞍具（蝴蝶鞍）', '閃亮鞍具（蝴蝶
 Config('Krampus Sack', '坎普斯背包')
 Config('Morning Star', '晨星锤', '晨星錘')
 Config('Night Armor', '暗夜甲（影甲）')
+Config('One-man Band', '独奏乐器', '獨奏樂器')
 Config('Shadow Maul', '暗影槌')
 Config('Shadow Reaper', '暗影收割者（镰刀）')
 Config('Thulecite Suit & W.A.R.B.I.S. Armor', '铥矿甲、W.A.R.B.I.S.盔甲', '銩礦甲、W.A.R.B.I.S.盔甲')

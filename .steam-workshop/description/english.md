@@ -124,6 +124,7 @@
 - Krampus Sack
 - Morning Star
 - Night Armor
+- One-man Band
 - Shadow Maul
 - Shadow Reaper
 - Thulecite Suit & W.A.R.B.I.S. Armor
