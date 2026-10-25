@@ -175,7 +175,12 @@ Hook(
 --------------------------------------------------------------------------------
 -- Characters
 
-Hook('Abigail', 'dontstarve/characters/wendy/abigail/howl', 'meta5/abigail/gestalt_abigail_idle')
+Hook(
+  'Abigail',
+  'dontstarve/characters/wendy/abigail/howl',
+  'meta5/abigail/gestalt_abigail_idle',
+  'meta5/abigail/abigail_nightmare_buff_stinger'
+)
 Hook('Auto-Grabber Movement', 'WX_rework/harvester/movement')
 Hook(
   'Battle Calls', -- prefabs/battlesongdefs.lua
