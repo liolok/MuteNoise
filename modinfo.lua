@@ -127,6 +127,7 @@ Config('Clockwork (and Damaged) Rook', '（损坏的）发条战车', '（損壞
 Config('Crustashine', '发光蟹', '發光蟹')
 Config('Deadly Brightshade', '致命亮茄')
 Config('Dust Moth', '尘蛾', '塵蛾')
+Config('Frankenswine', '科学怪猪', '科學怪豬')
 Config('Frog', '青蛙')
 Config('Ghost & Bigspook', '幽灵、大惊吓', '幽靈、大驚嚇')
 Config('Gobbler', '火鸡', '火雞')

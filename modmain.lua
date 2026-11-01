@@ -436,6 +436,7 @@ Hook(
   'rifts/lunarthrall/rustle_wakeup_LP'
 )
 Hook('Dust Moth', 'grotto/creatures/dust_moth/mumble')
+Hook('Frankenswine', 'dontstarve/pig/frankenpig_oink')
 Hook(
   'Frog',
   'dontstarve/frog/grunt',

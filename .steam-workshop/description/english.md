@@ -92,6 +92,7 @@
 - Crustashine
 - Deadly Brightshade
 - Dust Moth
+- Frankenswine
 - Frog
 - Ghost & Bigspook
 - Gobbler
