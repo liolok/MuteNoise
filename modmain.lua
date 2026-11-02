@@ -630,6 +630,7 @@ Hook(
   'rifts2/shadow_forge/proximity_pst',
   'rifts2/shadow_forge/use'
 )
+Hook('T.I.N.G.L.E. Node', 'dontstarve/common/together/electric_fence/link_LP')
 Hook('Tackle Receptacle', 'hookline/common/tackle_station/proximity_LP')
 Hook('Telelocator Focus', 'dontstarve/common/telebase_hum')
 Hook('Terra Firma Tamper', 'grotto/common/turf_crafting_station/prox_LP')

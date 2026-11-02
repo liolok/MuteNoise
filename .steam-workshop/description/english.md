@@ -145,6 +145,7 @@
 - Scaled Furnace
 - Shadow Manipulator
 - Shadowcraft Plinth
+- T.I.N.G.L.E. Node
 - Tackle Receptacle
 - Telelocator Focus
 - Terra Firma Tamper
