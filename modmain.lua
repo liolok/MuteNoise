@@ -137,6 +137,7 @@ Hook(
   'dontstarve/AMB/waves_winter',
   'dontstarve_DLC001/AMB/waves_summer'
 )
+Config('Shadow Atrium', 'dontstarve/sanity/shadow_heart')
 Hook('Shadow Dimension Storage Space', 'maxwell_rework/shadow_magic/storage_void_LP')
 Hook('Shell Beach Turf', 'hookline_2/amb/hermit_island')
 Hook(

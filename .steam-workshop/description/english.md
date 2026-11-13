@@ -36,6 +36,7 @@
 - Restrained Static
 - Sandstorm
 - Season Wave Sound
+- Shadow Atrium
 - Shadow Dimension Storage Space
 - Shell Beach Turf
 - Shell Bell
