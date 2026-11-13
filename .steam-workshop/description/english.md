@@ -41,6 +41,7 @@
 - Shell Bell
 - Spark Ark (Full)
 - Sproutrock
+- Telltale Heart
 - Thunder
 - Tree Growth
 - Umbralla Dome

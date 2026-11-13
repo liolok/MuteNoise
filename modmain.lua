@@ -147,6 +147,7 @@ Hook(
 )
 Hook('Spark Ark (Full)', 'grotto/common/archive_security_desk/leave_LP')
 Hook('Sproutrock', 'meta4/ancienttree/gemfruit/sway_lp')
+Hook('Telltale Heart', 'dontstarve/ghost/bloodpump')
 Hook('Thunder', 'dontstarve/rain/thunder_close', 'dontstarve/rain/thunder_far')
 Hook('Tree Growth', 'dontstarve/forest/treeGrowFromWilt', 'dontstarve/forest/treeGrow', 'dontstarve/forest/treeWilt')
 Hook('Umbralla Dome', 'meta2/voidcloth_umbrella/barrier_lp', 'meta2/voidcloth_umbrella/barrier_amb')
