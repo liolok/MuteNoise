@@ -102,6 +102,7 @@ Hook(
   'turnoftides/sanity/lunacy_LP',
   'dontstarve/sanity/lunacy_stinger'
 )
+Hook('Map Open/Close', 'dontstarve/HUD/map_close', 'dontstarve/HUD/map_open')
 Hook('Midsummer Cawnival', 'summerevent/music/1')
 Hook('Nightberry Pulse Sound', 'meta4/ancienttree/nightvision/effect_LP')
 Hook(

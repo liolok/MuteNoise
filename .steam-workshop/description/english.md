@@ -28,6 +28,7 @@
 - Giant Whirlpool
 - Gloomthorn
 - Insane & Enlightened
+- Map Open/Close
 - Midsummer Cawnival
 - Nightberry Pulse Sound
 - Overheating & Freezing
